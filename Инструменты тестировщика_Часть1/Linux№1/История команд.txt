@@ -1,0 +1,39 @@
+qakush@qakush:~$ echo Ответом на вопросы о смысле жизни, вселенной и всем сущем является 42
+
+Ответом на вопросы о смысле жизни, вселенной и всем сущем является 42
+
+qakush@qakush:~$ !!
+
+echo Ответом на вопросы о смысле жизни, вселенной и всем сущем является 42
+
+Ответом на вопросы о смысле жизни, вселенной и всем сущем является 42
+
+qakush@qakush:~$ history 5
+
+  252  echo Ответом на вопросы о смысле жизни, вселенной и всем сущем является 42
+
+  253  echo echo Ответом на вопросы о смысле жизни, вселенной и всем сущем является 42
+
+  254  echo Ответом на вопросы о смысле жизни, вселенной и всем сущем является 42
+
+  255  clear
+
+  256  history 5
+
+qakush@qakush:~$ 
+
+qakush@qakush:~$ echo $HISTSIZE
+
+1000
+
+qakush@qakush:~$ echo $HISTFILE 
+
+/home/qakush/.bash_history
+
+qakush@qakush:~$ echo $HISTFILESIZE
+
+2000
+
+qakush@qakush:~$ echo "export HISTSIZE=5000" >>.bashrc
+
+qakush@qakush:~$ echo "export HISTFILESIZE=5000" >>.bashrc

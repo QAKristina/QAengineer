@@ -1,0 +1,117 @@
+passwd
+
+qakush@qakush:~$ file /usr/bin/passwd/usr/bin/passwd: setuid ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=866f774c67f10d9451e0d07aad37983fd4327159, for GNU/Linux 3.2.0, stripped
+
+qakush@qakush:~$ cd /etc && ls
+
+adduser.conf            dkms                        issue.net        openni2         services
+
+adjtime                 dleyna-server-service.conf  kernel           opt             sgml
+
+alsa                    dpkg                        kernel-img.conf  os-release      shadow
+
+alternatives            e2scrub.conf                ldap             PackageKit      shadow-
+
+anacrontab              emacs                       ld.so.cache      pam.conf        shells
+
+apache2                 environment                 ld.so.conf       pam.d           skel
+
+apg.conf                environment.d               ld.so.conf.d     papersize       snmp
+
+apparmor                ethertypes                  libao.conf       passwd          speech-dispatcher
+
+apparmor.d              firefox-esr                 libaudit.conf    passwd-         ssh
+
+appstream.conf          fonts                       libblockdev      perl            ssl
+
+apt                     fstab                       libnl-3          pipewire        subgid
+
+avahi                   fuse.conf                   libpaper.d       pki             subgid-
+
+bash.bashrc             fwupd                       libreoffice      plymouth        subuid
+
+bash_completion         gai.conf                    lighttpd         pm              subuid-
+
+bindresvport.blacklist  gdm3                        locale.alias     polkit-1        sudo.conf
+
+binfmt.d                geoclue                     locale.gen       ppp             sudoers
+
+bluetooth               ghostscript                 localtime        profile         sudoers.d
+
+bogofilter.cf           glvnd                       logcheck         profile.d       sudo_logsrvd.conf
+
+ca-certificates         gnome                       login.defs       protocols       sysctl.conf
+
+ca-certificates.conf    gnome-chess                 logrotate.conf   pulse           sysctl.d
+
+chatscripts             groff                       logrotate.d      python3         systemd
+
+chromium                group                       machine-id       python3.9       terminfo
+
+console-setup           group-                      magic            rc0.d           timezone
+
+cracklib                grub.d                      magic.mime       rc1.d           timidity
+
+cron.d                  gshadow                     mailcap          rc2.d           tmpfiles.d
+
+cron.daily              gshadow-                    mailcap.order    rc3.d           ucf.conf
+
+cron.hourly             gss                         manpath.config   rc4.d           udev
+
+cron.monthly            gtk-2.0                     mime.types       rc5.d           udisks2
+
+crontab                 gtk-3.0                     mke2fs.conf      rc6.d           update-motd.d
+
+cron.weekly             host.conf                   modprobe.d       rcS.d           UPower
+
+cupshelpers             hostname                    modules          reportbug.conf  usb_modeswitch.conf
+
+dbus-1                  hosts                       modules-load.d   resolv.conf     usb_modeswitch.d
+
+dconf                   hosts.allow                 motd             rmt             vdpau_wrapper.cfg
+
+debconf.conf            hosts.deny                  mtab             rpc             vim
+
+debian_version          ifplugd                     nanorc           rsyslog.conf    vulkan
+
+default                 init.d                      netconfig        rsyslog.d       wgetrc
+
+deluser.conf            initramfs-tools             network          rygel.conf      wpa_supplicant
+
+depmod.d                inputrc                     NetworkManager   sane.d          X11
+
+dhcp                    insserv.conf.d              networks         security        xattr.conf
+
+dictionaries-common     ipp-usb                     nftables.conf    selinux         xdg
+
+discover.conf.d         iproute2                    nsswitch.conf    sensors3.conf   xml
+
+discover-modprobe.conf  issue                       openal           sensors.d
+
+qakush@qakush:~$ cd etc || cd /etc
+
+bash: cd: etc: No such file or directory
+
+qakush@qakush:/etc$
+
+qakush@qakush:~$ touch test42 && echo completed || echo failed
+
+completed
+
+qakush@qakush:~$ cd /bin
+
+qakush@qakush:/bin$ touch test42 && echo completed || echo failed
+
+touch: cannot touch 'test42': Permission denied
+
+failed
+
+qakush@qakush:~$ rm fileQ55 && echo success || echo failed
+
+success
+
+qakush@qakush:~$ rm fileQ55 && echo success || echo failed
+
+rm: cannot remove 'fileQ55': No such file or directory
+
+failed

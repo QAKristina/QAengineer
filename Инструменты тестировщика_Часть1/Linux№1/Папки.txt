@@ -1,0 +1,253 @@
+qakush@qakush:~$ pwd
+
+/home/qakush
+
+qakush@qakush:~$ cd /etc
+
+qakush@qakush:/etc$ cd /boot/grub/
+
+qakush@qakush:/boot/grub$ cd ..
+
+qakush@qakush:/boot$ cd /
+
+qakush@qakush:/$ ls
+
+bin   home            lib32       media  root  sys  vmlinuz
+
+boot  initrd.img      lib64       mnt    run   tmp  vmlinuz.old
+
+dev   initrd.img.old  libx32      opt    sbin  usr
+
+etc   lib             lost+found  proc   srv   var
+
+qakush@qakush:/$ ls -l
+
+total 68
+
+lrwxrwxrwx   1 root root     7 Jan 28 04:15 bin -> usr/bin
+
+drwxr-xr-x   3 root root  4096 Jan 28 04:54 boot
+
+drwxr-xr-x  18 root root  3160 Jan 28 05:10 dev
+
+drwxr-xr-x 117 root root 12288 Jan 28 05:10 etc
+
+drwxr-xr-x   3 root root  4096 Jan 28 04:53 home
+
+lrwxrwxrwx   1 root root    31 Jan 28 04:27 initrd.img -> boot/initrd.img-5.10.0-11-amd64
+
+lrwxrwxrwx   1 root root    31 Jan 28 04:16 initrd.img.old -> boot/initrd.img-5.10.0-10-amd64
+
+lrwxrwxrwx   1 root root     7 Jan 28 04:15 lib -> usr/lib
+
+lrwxrwxrwx   1 root root     9 Jan 28 04:15 lib32 -> usr/lib32
+
+lrwxrwxrwx   1 root root     9 Jan 28 04:15 lib64 -> usr/lib64
+
+lrwxrwxrwx   1 root root    10 Jan 28 04:15 libx32 -> usr/libx32
+
+drwx------   2 root root 16384 Jan 28 04:15 lost+found
+
+drwxr-xr-x   3 root root  4096 Jan 28 04:15 media
+
+drwxr-xr-x   2 root root  4096 Jan 28 04:15 mnt
+
+drwxr-xr-x   2 root root  4096 Jan 28 04:15 opt
+
+dr-xr-xr-x 211 root root     0 Jan 28 05:10 proc
+
+drwx------   3 root root  4096 Jan 28 05:03 root
+
+drwxr-xr-x  24 root root   600 Jan 28 05:10 run
+
+lrwxrwxrwx   1 root root     8 Jan 28 04:15 sbin -> usr/sbin
+
+drwxr-xr-x   2 root root  4096 Jan 28 04:15 srv
+
+dr-xr-xr-x  13 root root     0 Jan 28 05:10 sys
+
+drwxrwxrwt  16 root root  4096 Jan 28 06:11 tmp
+
+drwxr-xr-x  14 root root  4096 Jan 28 04:15 usr
+
+drwxr-xr-x  11 root root  4096 Jan 28 04:15 var
+
+lrwxrwxrwx   1 root root    28 Jan 28 04:27 vmlinuz -> boot/vmlinuz-5.10.0-11-amd64
+
+lrwxrwxrwx   1 root root    28 Jan 28 04:16 vmlinuz.old -> boot/vmlinuz-5.10.0-10-amd64
+
+qakush@qakush:/$ ls /etc
+
+adduser.conf                host.conf        polkit-1
+
+adjtime                     hostname         ppp
+
+alsa                        hosts            profile
+
+alternatives                hosts.allow      profile.d
+
+anacrontab                  hosts.deny       protocols
+
+apache2                     ifplugd          pulse
+
+apg.conf                    init.d           python3
+
+apparmor                    initramfs-tools  python3.9
+
+apparmor.d                  inputrc          rc0.d
+
+appstream.conf              insserv.conf.d   rc1.d
+
+apt                         ipp-usb          rc2.d
+
+avahi                       iproute2         rc3.d
+
+bash.bashrc                 issue            rc4.d
+
+bash_completion             issue.net        rc5.d
+
+bindresvport.blacklist      kernel           rc6.d
+
+binfmt.d                    kernel-img.conf  rcS.d
+
+bluetooth                   ldap             reportbug.conf
+
+bogofilter.cf               ld.so.cache      resolv.conf
+
+ca-certificates             ld.so.conf       rmt
+
+ca-certificates.conf        ld.so.conf.d     rpc
+
+chatscripts                 libao.conf       rsyslog.conf
+
+chromium                    libaudit.conf    rsyslog.d
+
+console-setup               libblockdev      rygel.conf
+
+cracklib                    libnl-3          sane.d
+
+cron.d                      libpaper.d       security
+
+cron.daily                  libreoffice      selinux
+
+cron.hourly                 lighttpd         sensors3.conf
+
+cron.monthly                locale.alias     sensors.d
+
+crontab                     locale.gen       services
+
+cron.weekly                 localtime        sgml
+
+cupshelpers                 logcheck         shadow
+
+dbus-1                      login.defs       shadow-
+
+dconf                       logrotate.conf   shells
+
+debconf.conf                logrotate.d      skel
+
+debian_version              machine-id       snmp
+
+default                     magic            speech-dispatcher
+
+deluser.conf                magic.mime       ssh
+
+dhcp                        mailcap          ssl
+
+dictionaries-common         mailcap.order    subgid
+
+discover.conf.d             manpath.config   subgid-
+
+discover-modprobe.conf      mime.types       subuid
+
+dleyna-server-service.conf  mke2fs.conf      subuid-
+
+dpkg                        modprobe.d       sudo.conf
+
+e2scrub.conf                modules          sudoers
+
+emacs                       modules-load.d   sudoers.d
+
+environment                 motd             sudo_logsrvd.conf
+
+environment.d               mtab             sysctl.conf
+
+ethertypes                  nanorc           sysctl.d
+
+firefox-esr                 netconfig        systemd
+
+fonts                       network          terminfo
+
+fstab                       NetworkManager   timezone
+
+fuse.conf                   networks         timidity
+
+fwupd                       nftables.conf    tmpfiles.d
+
+gai.conf                    nsswitch.conf    ucf.conf
+
+gdm3                        openal           udev
+
+geoclue                     openni2          udisks2
+
+ghostscript                 opt              update-motd.d
+
+glvnd                       os-release       UPower
+
+gnome                       PackageKit       usb_modeswitch.conf
+
+gnome-chess                 pam.conf         usb_modeswitch.d
+
+groff                       pam.d            vdpau_wrapper.cfg
+
+group                       papersize        vim
+
+group-                      passwd           vulkan
+
+grub.d                      passwd-          wgetrc
+
+gshadow                     perl             wpa_supplicant
+
+gshadow-                    pipewire         X11
+
+gss                         pki              xattr.conf
+
+gtk-2.0                     plymouth         xdg
+
+gtk-3.0                     pm               xml
+
+qakush@qakush:/$ cd ~
+
+qakush@qakush:~$ ls -a
+
+.             .bashrc  Desktop    .gnupg  Pictures  .ssh
+
+..            .cache   Documents  .local  .profile  Templates
+
+.bash_logout  .config  Downloads  Music   Public    Videos
+
+qakush@qakush:~$ mkdir testdir
+
+qakush@qakush:~$ cd /etc
+
+qakush@qakush:/etc$ mkdir ~/newtestdir
+
+qakush@qakush:/etc$ mkdir -p ~/dir1/dir2/dir3
+
+qakush@qakush:/etc$ ls ~
+
+Desktop  Documents  Music       Pictures  Templates  Videos
+
+dir1     Downloads  newtestdir  Public    testdir
+
+qakush@qakush:/etc$ rm -r dir1
+
+rm: cannot remove 'dir1': No such file or directory
+
+qakush@qakush:/etc$ rm -r ~/dir1
+
+qakush@qakush:/etc$ ls ~
+
+Desktop    Downloads  newtestdir  Public     testdir
+
+Documents  Music      Pictures    Templates  Videos

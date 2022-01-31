@@ -1,0 +1,2705 @@
+qakush@qakush:/etc$ cd /bin
+
+qakush@qakush:/bin$ ls
+
+'['                                   nautilus-autorun-software
+
+ 7z                                   nawk
+
+ 7za                                  nc
+
+ 7zr                                  nc.traditional
+
+ aa-enabled                           neqn
+
+ aa-exec                              netcat
+
+ aconnect                             networkctl
+
+ add-apt-repository                   newgrp
+
+ addpart                              ngettext
+
+ alsabat                              nice
+
+ alsaloop                             nisdomainname
+
+ alsamixer                            nl
+
+ alsatplg                             nm-applet
+
+ alsaucm                              nmcli
+
+ amidi                                nm-connection-editor
+
+ amixer                               nm-online
+
+ apg                                  nmtui
+
+ apgbfm                               nmtui-connect
+
+ aplay                                nmtui-edit
+
+ aplaymidi                            nmtui-hostname
+
+ appres                               nohup
+
+ appstreamcli                         nproc
+
+ apropos                              nroff
+
+ apt                                  nsenter
+
+ apt-add-repository                   nslookup
+
+ apt-cache                            nstat
+
+ apt-cdrom                            nsupdate
+
+ apt-config                           ntfs-3g
+
+ apt-extracttemplates                 ntfs-3g.probe
+
+ apt-ftparchive                       ntfscat
+
+ apt-get                              ntfscluster
+
+ apt-key                              ntfscmp
+
+ apt-listchanges                      ntfsdecrypt
+
+ apt-mark                             ntfsfallocate
+
+ apt-sortpkgs                         ntfsfix
+
+ arch                                 ntfsinfo
+
+ arecord                              ntfsls
+
+ arecordmidi                          ntfsmove
+
+ aseqdump                             ntfsrecover
+
+ aseqnet                              ntfssecaudit
+
+ aspell                               ntfstruncate
+
+ aspell-import                        ntfsusermap
+
+ atobm                                ntfswipe
+
+ awk                                  numfmt
+
+ axfer                                obexctl
+
+ b2sum                                oclock
+
+ baobab                               od
+
+ base32                               odp2pdf
+
+ base64                               odp2ppt
+
+ basename                             ods2pdf
+
+ basenc                               odt2bib
+
+ bash                                 odt2doc
+
+ bashbug                              odt2docbook
+
+ bccmd                                odt2html
+
+ bdftopcf                             odt2lt
+
+ bdftruncate                          odt2pdf
+
+ bf_compact                           odt2rtf
+
+ bf_compact-bdb                       odt2sdw
+
+ bf_copy                              odt2sxw
+
+ bf_copy-bdb                          odt2txt
+
+ bf_tar                               odt2txt.unoconv
+
+ bf_tar-bdb                           odt2xhtml
+
+ bitmap                               odt2xml
+
+ bluemoon                             ooxml2doc
+
+ bluetoothctl                         ooxml2odt
+
+ bluetooth-sendto                     ooxml2pdf
+
+ bmtoa                                open
+
+ bogofilter                           openssl
+
+ bogofilter-bdb                       openvt
+
+ bogolexer                            orca
+
+ bogolexer-bdb                        orca-dm-wrapper
+
+ bogotune                             os-prober
+
+ bogotune-bdb                         p11-kit
+
+ bogoupgrade                          p7zip
+
+ bogoupgrade-bdb                      pacat
+
+ bogoutil                             pacmd
+
+ bogoutil-bdb                         pactl
+
+ boltctl                              padsp
+
+ bootctl                              pager
+
+ broadwayd                            pa-info
+
+ btattach                             pamon
+
+ btmgmt                               paperconf
+
+ btmon                                paplay
+
+ buildhash                            parec
+
+ bunzip2                              parecord
+
+ busctl                               partx
+
+ busybox                              passwd
+
+ bwrap                                paste
+
+ bzcat                                pasuspender
+
+ bzcmp                                pathchk
+
+ bzdiff                               pax11publish
+
+ bzegrep                              pdb3
+
+ bzexe                                pdb3.9
+
+ bzfgrep                              peekfd
+
+ bzgrep                               perf
+
+ bzip2                                perl
+
+ bzip2recover                         perl5.32.1
+
+ bzless                               perl5.32-x86_64-linux-gnu
+
+ bzmore                               perlbug
+
+ captoinfo                            perldoc
+
+ caribou-preferences                  perli11ndoc
+
+ cat                                  perlivp
+
+ catchsegv                            perlthanks
+
+ catman                               pgrep
+
+ cd-create-profile                    pic
+
+ cd-fix-profile                       pico
+
+ cd-iccdump                           piconv
+
+ cd-it8                               pidof
+
+ cdrdao                               pidwait
+
+ chacl                                pinentry
+
+ chage                                pinentry-gnome3
+
+ chardet                              pinentry-x11
+
+ chardetect                           ping
+
+ chattr                               ping4
+
+ chcon                                ping6
+
+ cheese                               pinky
+
+ chfn                                 pipewire
+
+ chgrp                                pipewire-media-session
+
+ chmod                                pipewire-pulse
+
+ choom                                pkaction
+
+ chown                                pkcheck
+
+ chrome-gnome-shell                   pkcon
+
+ chrt                                 pkexec
+
+ chsh                                 pkg-config
+
+ chvt                                 pkill
+
+ ciptool                              pkmon
+
+ ckbcomp                              pkttyagent
+
+ cksum                                pl2pm
+
+ clear                                pldd
+
+ clear_console                        plog
+
+ cmp                                  plymouth
+
+ codepage                             pmap
+
+ col                                  pod2html
+
+ colcrt                               pod2man
+
+ colormgr                             pod2text
+
+ colrm                                pod2usage
+
+ column                               podchecker
+
+ comm                                 poff
+
+ compose                              pon
+
+ corelist                             POST
+
+ cp                                   ppt2odp
+
+ cpan                                 pr
+
+ cpan5.32-x86_64-linux-gnu            precat
+
+ cpio                                 preconv
+
+ cpp                                  preunzip
+
+ cpp-10                               prezip
+
+ c_rehash                             prezip-bin
+
+ crontab                              print
+
+ csplit                               printenv
+
+ ctstat                               printf
+
+ cut                                  prlimit
+
+ cvt                                  prove
+
+ cvtsudoers                           prtstat
+
+ dash                                 ps
+
+ date                                 psfaddtable
+
+ dbus-cleanup-sockets                 psfgettable
+
+ dbus-daemon                          psfstriptable
+
+ dbus-launch                          psfxtable
+
+ dbus-monitor                         pslog
+
+ dbus-run-session                     pstree
+
+ dbus-send                            pstree.x11
+
+ dbus-update-activation-environment   ptar
+
+ dbus-uuidgen                         ptardiff
+
+ dbxtool                              ptargrep
+
+ dconf                                ptked
+
+ dd                                   ptksh
+
+ deallocvt                            ptx
+
+ debconf                              pulseaudio
+
+ debconf-apt-progress                 pw-cat
+
+ debconf-communicate                  pw-cli
+
+ debconf-copydb                       pwd
+
+ debconf-escape                       pw-dot
+
+ debconf-set-selections               pw-dump
+
+ debconf-show                         pwdx
+
+ debianbts                            pw-metadata
+
+ deb-systemd-helper                   pw-mididump
+
+ deb-systemd-invoke                   pw-midiplay
+
+ defmt-c                              pw-midirecord
+
+ defmt-sh                             pw-mon
+
+ delpart                              pw-play
+
+ delv                                 pw-profiler
+
+ desktop-file-edit                    pw-record
+
+ desktop-file-install                 pw-reserve
+
+ desktop-file-validate                pw-top
+
+ df                                   py3clean
+
+ dfu-tool                             py3compile
+
+ dh_bash-completion                   py3versions
+
+ dh_installxmlcatalogs                pydoc3
+
+ dh_perl_openssl                      pydoc3.9
+
+ diff                                 pygettext3
+
+ diff3                                pygettext3.9
+
+ dig                                  python3
+
+ dir                                  python3.9
+
+ dircolors                            querybts
+
+ dirmngr                              rbash
+
+ dirmngr-client                       rcp
+
+ dirname                              rctest
+
+ discover-config                      rdma
+
+ dmesg                                readlink
+
+ dnsdomainname                        realpath
+
+ dnstap-read                          rendercheck
+
+ doc2odt                              renice
+
+ doc2pdf                              reportbug
+
+ domainname                           report-hw
+
+ dotlockfile                          reset
+
+ dpkg                                 resizecons
+
+ dpkg-deb                             resizepart
+
+ dpkg-divert                          resolvectl
+
+ dpkg-maintscript-helper              rev
+
+ dpkg-query                           rfcomm
+
+ dpkg-realpath                        rgrep
+
+ dpkg-split                           rhythmbox
+
+ dpkg-statoverride                    rhythmbox-client
+
+ dpkg-trigger                         rlogin
+
+ du                                   rm
+
+ dumpkeys                             rmdir
+
+ echo                                 rnano
+
+ edit                                 routef
+
+ editor                               routel
+
+ editres                              rsh
+
+ egrep                                rstart
+
+ eject                                rstartd
+
+ enc2xs                               rtstat
+
+ encguess                             runcon
+
+ enchant-2                            run-mailcap
+
+ enchant-lsmod-2                      run-parts
+
+ env                                  run-with-aspell
+
+ envsubst                             rview
+
+ eog                                  rygel
+
+ eqn                                  sane-find-scanner
+
+ evince                               savelog
+
+ evince-previewer                     scanimage
+
+ evince-thumbnailer                   scp
+
+ evolution                            scp-dbus-service
+
+ ex                                   screendump
+
+ expand                               script
+
+ expiry                               scriptlive
+
+ expr                                 scriptreplay
+
+ factor                               sdiff
+
+ faillog                              sdptool
+
+ fallocate                            sdw2odt
+
+ false                                seahorse
+
+ fc-cache                             sed
+
+ fc-cat                               see
+
+ fc-conflist                          select-default-iwrap
+
+ fc-list                              select-editor
+
+ fc-match                             sensible-browser
+
+ fc-pattern                           sensible-editor
+
+ fc-query                             sensible-pager
+
+ fc-scan                              seq
+
+ fc-validate                          sessreg
+
+ fgconsole                            setarch
+
+ fgrep                                setfacl
+
+ file                                 setfont
+
+ file-roller                          setkeycodes
+
+ fincore                              setleds
+
+ find                                 setlogcons
+
+ findaffix                            setmetamode
+
+ findmnt                              setpci
+
+ firefox                              setpriv
+
+ firefox-esr                          setsid
+
+ flock                                setterm
+
+ fmt                                  setupcon
+
+ fold                                 setvtrgb
+
+ fonttosfnt                           setxkbmap
+
+ free                                 sftp
+
+ funzip                               sg
+
+ fuser                                sh
+
+ fusermount                           sha1sum
+
+ fusermount3                          sha224sum
+
+ fwupdagent                           sha256sum
+
+ fwupdate                             sha384sum
+
+ fwupdmgr                             sha512sum
+
+ fwupdtool                            shasum
+
+ fwupdtpmevlog                        shotwell
+
+ gamma4scanimage                      showconsolefont
+
+ gapplication                         showkey
+
+ gatttool                             showrgb
+
+ gcalccmd                             shred
+
+ gcm-import                           shuf
+
+ gcm-inspect                          simple-scan
+
+ gcm-picker                           skill
+
+ gcm-viewer                           slabtop
+
+ gcr-viewer                           sleep
+
+ gdbus                                slogin
+
+ gdialog                              smproxy
+
+ gdk-pixbuf-csource                   snice
+
+ gdk-pixbuf-pixdata                   soelim
+
+ gdk-pixbuf-thumbnailer               soffice
+
+ gdmflexiserver                       software-properties-gtk
+
+ gdm-screenshot                       sort
+
+ gedit                                spa-acp-tool
+
+ geqn                                 spa-inspect
+
+ GET                                  spa-monitor
+
+ getconf                              spa-resample
+
+ getent                               spd-conf
+
+ getfacl                              spd-say
+
+ getkeycodes                          spdsend
+
+ getopt                               speaker-test
+
+ gettext                              speech-dispatcher
+
+ gettext.sh                           splain
+
+ gio                                  split
+
+ gio-querymodules                     splitfont
+
+ gjs                                  ss
+
+ gjs-console                          ssh
+
+ gkbd-keyboard-display                ssh-add
+
+ glib-compile-schemas                 ssh-agent
+
+ gnome-calculator                     ssh-argv0
+
+ gnome-calendar                       ssh-copy-id
+
+ gnome-characters                     ssh-keygen
+
+ gnome-clocks                         ssh-keyscan
+
+ gnome-contacts                       start-pulseaudio-x11
+
+ gnome-control-center                 startx
+
+ gnome-disk-image-mounter             stat
+
+ gnome-disks                          stdbuf
+
+ gnome-documents                      streamzip
+
+ gnome-extensions                     stty
+
+ gnome-extensions-app                 su
+
+ gnome-font-viewer                    sudo
+
+ gnome-help                           sudoedit
+
+ gnome-keyring                        sudoreplay
+
+ gnome-keyring-3                      sum
+
+ gnome-keyring-daemon                 sushi
+
+ gnome-logs                           switcherooctl
+
+ gnome-maps                           sxw2odt
+
+ gnome-music                          synaptic-pkexec
+
+ gnome-screenshot                     sync
+
+ gnome-session                        systemctl
+
+ gnome-session-classic                systemd
+
+ gnome-session-custom-session         systemd-analyze
+
+ gnome-session-inhibit                systemd-ask-password
+
+ gnome-session-quit                   systemd-cat
+
+ gnome-shell                          systemd-cgls
+
+ gnome-shell-extension-prefs          systemd-cgtop
+
+ gnome-shell-extension-tool           systemd-delta
+
+ gnome-shell-perf-tool                systemd-detect-virt
+
+ gnome-software                       systemd-escape
+
+ gnome-sound-recorder                 systemd-hwdb
+
+ gnome-system-monitor                 systemd-id128
+
+ gnome-terminal                       systemd-inhibit
+
+ gnome-terminal.wrapper               systemd-machine-id-setup
+
+ gnome-text-editor                    systemd-mount
+
+ gnome-thumbnail-font                 systemd-notify
+
+ gnome-todo                           systemd-path
+
+ gnome-tweaks                         systemd-resolve
+
+ gnome-weather                        systemd-run
+
+ gnome-www-browser                    systemd-socket-activate
+
+ gpasswd                              systemd-stdio-bridge
+
+ gpg                                  systemd-sysusers
+
+ gpg-agent                            systemd-tmpfiles
+
+ gpgcompose                           systemd-tty-ask-password-agent
+
+ gpgconf                              systemd-umount
+
+ gpg-connect-agent                    tabs
+
+ gpgparsemail                         tac
+
+ gpgsm                                tail
+
+ gpgsplit                             tar
+
+ gpgtar                               tasksel
+
+ gpgv                                 taskset
+
+ gpg-wks-server                       tbl
+
+ gpg-zip                              tee
+
+ gpic                                 telnet
+
+ grep                                 telnet.netkit
+
+ gresource                            tempfile
+
+ groff                                test
+
+ grog                                 tic
+
+ grops                                timedatectl
+
+ grotty                               timeout
+
+ groups                               tkjpeg
+
+ grub-editenv                         tload
+
+ grub-file                            toc2cddb
+
+ grub-fstest                          toc2cue
+
+ grub-glue-efi                        toe
+
+ grub-kbdcomp                         top
+
+ grub-menulst2cfg                     totem
+
+ grub-mkfont                          totem-video-thumbnailer
+
+ grub-mkimage                         touch
+
+ grub-mklayout                        tput
+
+ grub-mknetdir                        tr
+
+ grub-mkpasswd-pbkdf2                 traceproto
+
+ grub-mkrelpath                       traceproto.db
+
+ grub-mkrescue                        traceroute
+
+ grub-mkstandalone                    traceroute6
+
+ grub-mount                           traceroute6.db
+
+ grub-ntldr-img                       traceroute.db
+
+ grub-render-label                    traceroute-nanog
+
+ grub-script-check                    tracker
+
+ grub-syslinux2cfg                    transmission-gtk
+
+ gsettings                            transset
+
+ gsf                                  troff
+
+ gsf-office-thumbnailer               true
+
+ gsf-vba-dump                         truncate
+
+ gstreamer-codec-install              trust
+
+ gtbl                                 tryaffix
+
+ gtf                                  tset
+
+ gtk-builder-tool                     tsort
+
+ gtk-encode-symbolic-svg              tty
+
+ gtk-launch                           tzselect
+
+ gtk-query-settings                   ucf
+
+ gtk-update-icon-cache                ucfq
+
+ gunzip                               ucfr
+
+ gzexe                                ucs2any
+
+ gzip                                 udevadm
+
+ h2ph                                 udisksctl
+
+ h2xs                                 ul
+
+ hciattach                            umax_pp
+
+ hciconfig                            umount
+
+ hcitool                              uname
+
+ hd                                   unattended-upgrade
+
+ head                                 unattended-upgrades
+
+ HEAD                                 uncompress
+
+ helpztags                            unexpand
+
+ hex2hcd                              unicode_start
+
+ hexdump                              unicode_stop
+
+ host                                 uniq
+
+ hostid                               unity-scope-loader
+
+ hostname                             unlink
+
+ hostnamectl                          unlzma
+
+ i386                                 unmkinitramfs
+
+ ibus                                 unoconv
+
+ ibus-daemon                          unopkg
+
+ ibus-setup                           unshare
+
+ iceauth                              unxz
+
+ ico                                  unzip
+
+ icombine                             unzipsfx
+
+ iconv                                update-alternatives
+
+ id                                   update-desktop-database
+
+ iecset                               update-mime-database
+
+ ijoin                                upower
+
+ im-config                            uptime
+
+ im-launch                            usb-devices
+
+ infocmp                              usbhid-dump
+
+ infotocap                            usbreset
+
+ install                              users
+
+ instmodsh                            utmpdump
+
+ intel-virtual-output                 vdir
+
+ ionice                               vi
+
+ ip                                   view
+
+ ipcmk                                viewres
+
+ ipcrm                                vim.tiny
+
+ ipcs                                 vmstat
+
+ ipod-read-sysinfo-extended           vmwarectrl
+
+ ipod-time-sync                       w
+
+ iptables-xml                         wall
+
+ ischroot                             watch
+
+ isdv4-serial-debugger                watchgnupg
+
+ isdv4-serial-inputattach             wc
+
+ ispell                               wdctl
+
+ ispell-wrapper                       wget
+
+ join                                 whatis
+
+ journalctl                           whereis
+
+ json_pp                              which
+
+ kbdinfo                              whiptail
+
+ kbd_mode                             who
+
+ kbxutil                              whoami
+
+ kernel-install                       widget
+
+ kill                                 word-list-compress
+
+ killall                              wpa_passphrase
+
+ kmod                                 write
+
+ l2ping                               write.ul
+
+ l2test                               X
+
+ laptop-detect                        X11
+
+ last                                 x11perf
+
+ lastb                                x11perfcomp
+
+ lastlog                              x86_64
+
+ lcf                                  x86_64-linux-gnu-cpp
+
+ ldd                                  x86_64-linux-gnu-cpp-10
+
+ less                                 x86_64-linux-gnu-pkg-config
+
+ lessecho                             x86_64-pc-linux-gnu-pkg-config
+
+ lessfile                             xargs
+
+ lesskey                              xauth
+
+ lesspipe                             xbiff
+
+ lexgrog                              xbrlapi
+
+ lft                                  xcalc
+
+ lft.db                               xclipboard
+
+ libnetcfg                            xclock
+
+ libreoffice                          xcmsdb
+
+ libwacom-list-local-devices          xconsole
+
+ link                                 xcursorgen
+
+ linux32                              xcutsel
+
+ linux64                              xdg-dbus-proxy
+
+ linux-boot-prober                    xdg-desktop-icon
+
+ linux-check-removal                  xdg-desktop-menu
+
+ linux-update-symlinks                xdg-email
+
+ linux-version                        xdg-icon-resource
+
+ listres                              xdg-mime
+
+ ln                                   xdg-open
+
+ lnstat                               xdg-screensaver
+
+ loadkeys                             xdg-settings
+
+ loadunimap                           xdg-user-dir
+
+ localc                               xdg-user-dirs-gtk-update
+
+ locale                               xdg-user-dirs-update
+
+ localectl                            xditview
+
+ localedef                            xdpyinfo
+
+ lodraw                               xdriinfo
+
+ loffice                              xedit
+
+ lofromtemplate                       Xephyr
+
+ logger                               xev
+
+ login                                xeyes
+
+ loginctl                             xfd
+
+ logname                              xfontsel
+
+ loimpress                            xgamma
+
+ lomath                               xgc
+
+ look                                 xhost
+
+ loweb                                xinit
+
+ lowntfs-3g                           xkbbell
+
+ lowriter                             xkbcomp
+
+ lp_solve                             xkbevd
+
+ ls                                   xkbprint
+
+ lsattr                               xkbset
+
+ lsblk                                xkbset-gui
+
+ lsb_release                          xkbvleds
+
+ lscpu                                xkbwatch
+
+ lsinitramfs                          xkeystone
+
+ lsipc                                xkill
+
+ lslocks                              xload
+
+ lslogins                             xlogo
+
+ lsmem                                xls2ods
+
+ lsmod                                xlsatoms
+
+ lsns                                 xlsclients
+
+ lsof                                 xlsfonts
+
+ lspci                                xmag
+
+ lspgpot                              xman
+
+ lsusb                                xmessage
+
+ luit                                 xmodmap
+
+ lwp-download                         xmore
+
+ lwp-dump                             Xorg
+
+ lwp-mirror                           xprop
+
+ lwp-request                          xrandr
+
+ lzcat                                xrdb
+
+ lzcmp                                xrefresh
+
+ lzdiff                               x-session-manager
+
+ lzegrep                              xset
+
+ lzfgrep                              xsetmode
+
+ lzgrep                               xsetpointer
+
+ lzless                               xsetroot
+
+ lzma                                 xsetwacom
+
+ lzmainfo                             xsm
+
+ lzmore                               xstdcmap
+
+ mako-render                          xsubpp
+
+ malcontent-client                    x-terminal-emulator
+
+ malcontent-control                   xvidtune
+
+ man                                  xvinfo
+
+ mandb                                Xwayland
+
+ manpath                              xwd
+
+ man-recode                           xwininfo
+
+ mapscrn                              xwud
+
+ mawk                                 x-www-browser
+
+ mcookie                              xxd
+
+ md5sum                               xz
+
+ md5sum.textutils                     xzcat
+
+ mdig                                 xzcmp
+
+ mesa-overlay-control.py              xzdiff
+
+ mesg                                 xzegrep
+
+ migrate-pubring-from-classic-gpg     xzfgrep
+
+ mimeopen                             xzgrep
+
+ mimetype                             xzless
+
+ mkdir                                xzmore
+
+ mkfifo                               yelp
+
+ mkfontdir                            yes
+
+ mkfontscale                          ypdomainname
+
+ mk_modmap                            zcat
+
+ mknod                                zcmp
+
+ mktemp                               zdiff
+
+ mmcli                                zdump
+
+ monitor-sensor                       zegrep
+
+ more                                 zenity
+
+ mount                                zfgrep
+
+ mountpoint                           zforce
+
+ mpris-proxy                          zgrep
+
+ mt                                   zipdetails
+
+ mt-gnu                               zipgrep
+
+ munchlist                            zipinfo
+
+ mv                                   zless
+
+ namei                                zmore
+
+ nano                                 znew
+
+ nautilus
+
+qakush@qakush:/bin$ file /bin/cat
+
+/bin/cat: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=e6afa43e1e280bd06c018f541c7ae46a2ebda83c, for GNU/Linux 3.2.0, stripped
+
+qakush@qakush:/bin$ file /etc/passwd
+
+/etc/passwd: ASCII text
+
+qakush@qakush:/bin$ mkdir ~/touched
+
+qakush@qakush:/bin$ cd ~/touched
+
+qakush@qakush:~/touched$ touch today.txt yesterday.txt
+
+qakush@qakush:~/touched$ file today.txt
+
+today.txt: empty
+
+qakush@qakush:~/touched$ touch -t 202201270454.00 yesterday.txt
+
+qakush@qakush:~/touched$ stat yesterday.txt
+
+  File: yesterday.txt
+
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+
+Device: 801h/2049d	Inode: 415141      Links: 1
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/  qakush)   Gid: ( 1000/  qakush)
+
+Access: 2022-01-27 04:54:00.000000000 -0500
+
+Modify: 2022-01-27 04:54:00.000000000 -0500
+
+Change: 2022-01-28 09:54:28.082510980 -0500
+
+ Birth: 2022-01-28 09:52:29.423387904 -0500
+
+qakush@qakush:~/touched$ cp yesterday.txt copy.yesterday.txt
+
+qakush@qakush:~/touched$ ls
+
+copy.yesterday.txt  today.txt  yesterday.txt
+
+qakush@qakush:~/touched$ mv yesterday.txt base.log
+
+qakush@qakush:~/touched$ mkdir ~/testbackup
+
+qakush@qakush:~/touched$ cp -r ~/touched/. ~/testbackup
+
+qakush@qakush:~/touched$ ls ~/testbackup
+
+base.log  copy.yesterday.txt  today.txt
+
+qakush@qakush:~/touched$ rm -r ~/testbackup
+
+qakush@qakush:~$ mkdir etcbackup
+
+qakush@qakush:~$ find /etc -type f -name "*.conf" -exec cp {} ~/etcbackup
+
+find: missing argument to `-exec'
+
+qakush@qakush:~$ find /etc -type f -name "*.conf" -exec cp{} ~/etcbackup
+
+find: missing argument to `-exec'
+
+qakush@qakush:~$ find /etc -type f -name "*.conf" -exec cp{}~/etcbackup
+
+find: missing argument to `-exec'
+
+qakush@qakush:~$ 
+
+qakush@qakush:~$ find /etc -type f -name "*.conf" -exec cp {}~/etcbackup
+
+find: missing argument to `-exec'
+
+qakush@qakush:~$ find /etc -type f -name "*.conf" -exec cp '{}' \;  ~/etcbackup
+
+find: paths must precede expression: `/home/qakush/etcbackup'
+
+find: possible unquoted pattern after predicate `-exec'?
+
+qakush@qakush:~$ find /etc -type f -name "*.conf" -exec cp '{}' ~/etcbackup \;
+
+find: ‘/etc/ssl/private’: Permission denied
+
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+
+qakush@qakush:~$ sudo find /etc -type f -name "*.conf" -exec cp '{}' ~/etcbackup \;
+
+[sudo] password for qakush: 
+
+qakush@qakush:~$ ls -l ~/etcbackup
+
+total 1048
+
+-rw-r--r-- 1 qakush qakush   864 Jan 29 11:58 20-unhint-small-dejavu-lgc-sans.conf
+
+-rw-r--r-- 1 qakush qakush   874 Jan 29 11:58 20-unhint-small-dejavu-lgc-sans-mono.conf
+
+-rw-r--r-- 1 qakush qakush   866 Jan 29 11:58 20-unhint-small-dejavu-lgc-serif.conf
+
+-rw-r--r-- 1 qakush qakush   856 Jan 29 11:58 20-unhint-small-dejavu-sans.conf
+
+-rw-r--r-- 1 qakush qakush   866 Jan 29 11:58 20-unhint-small-dejavu-sans-mono.conf
+
+-rw-r--r-- 1 qakush qakush   858 Jan 29 11:58 20-unhint-small-dejavu-serif.conf
+
+-rw-r--r-- 1 qakush qakush   218 Jan 29 11:58 30-droid-noto-mono.conf
+
+-rw-r--r-- 1 qakush qakush   267 Jan 29 11:58 50-localauthority.conf
+
+-rw-r--r-- 1 qakush qakush    48 Jan 29 11:58 51-debian-sudo.conf
+
+-rw-r--r-- 1 qakush qakush  1711 Jan 29 11:58 57-dejavu-sans.conf
+
+-rw-r--r-- 1 qakush qakush  1201 Jan 29 11:58 57-dejavu-sans-mono.conf
+
+-rw-r--r-- 1 qakush qakush  1357 Jan 29 11:58 57-dejavu-serif.conf
+
+-rw-r--r-- 1 qakush qakush  2063 Jan 29 11:58 58-dejavu-lgc-sans.conf
+
+-rw-r--r-- 1 qakush qakush  1545 Jan 29 11:58 58-dejavu-lgc-sans-mono.conf
+
+-rw-r--r-- 1 qakush qakush  1689 Jan 29 11:58 58-dejavu-lgc-serif.conf
+
+-rw-r--r-- 1 qakush qakush   202 Jan 29 11:58 65-droid-sans-fallback.conf
+
+-rw-r--r-- 1 qakush qakush    57 Jan 29 11:58 90atk-adaptor.conf
+
+-rw-r--r-- 1 qakush qakush   475 Jan 29 11:58 90gs-cjk-resource-cns1.conf
+
+-rw-r--r-- 1 qakush qakush   504 Jan 29 11:58 90gs-cjk-resource-gb1.conf
+
+-rw-r--r-- 1 qakush qakush   546 Jan 29 11:58 90gs-cjk-resource-japan1.conf
+
+-rw-r--r-- 1 qakush qakush   387 Jan 29 11:58 90gs-cjk-resource-japan2.conf
+
+-rw-r--r-- 1 qakush qakush   786 Jan 29 11:58 90gs-cjk-resource-korea1.conf
+
+-rw-r--r-- 1 qakush qakush    56 Jan 29 11:58 90-javascript-alias.conf
+
+-rw-r--r-- 1 qakush qakush    19 Jan 29 11:58 90qt-a11y.conf
+
+-rw-r--r-- 1 qakush qakush    25 Jan 29 11:58 abaton.conf
+
+-rw-r--r-- 1 qakush qakush  4564 Jan 29 11:58 access.conf
+
+-rw-r--r-- 1 qakush qakush  2981 Jan 29 11:58 adduser.conf
+
+-rw-r--r-- 1 qakush qakush    13 Jan 29 11:58 agfafocus.conf
+
+-rw-r--r-- 1 qakush qakush  1758 Jan 29 11:58 alsa-monitor.conf
+
+-rw-r--r-- 1 qakush qakush 18838 Jan 29 11:58 alsoft.conf
+
+-rw-r--r-- 1 qakush qakush   433 Jan 29 11:58 apg.conf
+
+-rw-r--r-- 1 qakush qakush    24 Jan 29 11:58 apple.conf
+
+-rw-r--r-- 1 qakush qakush   769 Jan 29 11:58 appstream.conf
+
+-rw-r--r-- 1 qakush qakush    25 Jan 29 11:58 artec.conf
+
+-rw-r--r-- 1 qakush qakush  4139 Jan 29 11:58 artec_eplus48u.conf
+
+-rw-r--r-- 1 qakush qakush  1807 Jan 29 11:58 avahi-daemon.conf
+
+-rw-r--r-- 1 qakush qakush  1144 Jan 29 11:58 avahi-dbus.conf
+
+-rw-r--r-- 1 qakush qakush   547 Jan 29 11:58 avision.conf
+
+-rw-r--r-- 1 qakush qakush    29 Jan 29 11:58 bh.conf
+
+-rw-r--r-- 1 qakush qakush  1261 Jan 29 11:58 bluetooth.conf
+
+-rw-r--r-- 1 qakush qakush  5662 Jan 29 11:58 ca-certificates.conf
+
+-rw-r--r-- 1 qakush qakush   193 Jan 29 11:58 canon630u.conf
+
+-rw-r--r-- 1 qakush qakush    26 Jan 29 11:58 canon.conf
+
+-rw-r--r-- 1 qakush qakush  3960 Jan 29 11:58 canon_dr.conf
+
+-rw-r--r-- 1 qakush qakush   198 Jan 29 11:58 canon_lide70.conf
+
+-rw-r--r-- 1 qakush qakush  1158 Jan 29 11:58 canon_pp.conf
+
+-rw-r--r-- 1 qakush qakush   552 Jan 29 11:58 cardscan.conf
+
+-rw-r--r-- 1 qakush qakush  1752 Jan 29 11:58 cicero.conf
+
+-rw-r--r-- 1 qakush qakush  1201 Jan 29 11:58 client.conf
+
+-rw-r--r-- 1 qakush qakush   792 Jan 29 11:58 com.redhat.NewPrinterNotification.conf
+
+-rw-r--r-- 1 qakush qakush   799 Jan 29 11:58 com.redhat.PrinterDriversInstaller.conf
+
+-rw-r--r-- 1 qakush qakush   662 Jan 29 11:58 com.ubuntu.SoftwareProperties.conf
+
+-rw-r--r-- 1 qakush qakush   754 Jan 29 11:58 coolscan2.conf
+
+-rw-r--r-- 1 qakush qakush   754 Jan 29 11:58 coolscan3.conf
+
+-rw-r--r-- 1 qakush qakush    34 Jan 29 11:58 coolscan.conf
+
+-rw-r--r-- 1 qakush qakush  1816 Jan 29 11:58 cracklib.conf
+
+-rw-r--r-- 1 qakush qakush  1373 Jan 29 11:58 daemon.conf
+
+-rw-r--r-- 1 qakush qakush   983 Jan 29 11:58 dc210.conf
+
+-rw-r--r-- 1 qakush qakush   983 Jan 29 11:58 dc240.conf
+
+-rw-r--r-- 1 qakush qakush   703 Jan 29 11:58 dc25.conf
+
+-rw-r--r-- 1 qakush qakush  2969 Jan 29 11:58 debconf.conf
+
+-rw-r--r-- 1 qakush qakush   490 Jan 29 11:58 dell1600n_net.conf
+
+-rw-r--r-- 1 qakush qakush   247 Jan 29 11:58 dell-esrt.conf
+
+-rw-r--r-- 1 qakush qakush   604 Jan 29 11:58 deluser.conf
+
+-rw-r--r-- 1 qakush qakush  1735 Jan 29 11:58 dhclient.conf
+
+-rw-r--r-- 1 qakush qakush   346 Jan 29 11:58 discover-modprobe.conf
+
+-rw-r--r-- 1 qakush qakush   127 Jan 29 11:58 dkms.conf
+
+-rw-r--r-- 1 qakush qakush  1174 Jan 29 11:58 dleyna-server-service.conf
+
+-rw-r--r-- 1 qakush qakush  1128 Jan 29 11:58 dll.conf
+
+-rw-r--r-- 1 qakush qakush    12 Jan 29 11:58 dmc.conf
+
+-rw-r--r-- 1 qakush qakush   652 Jan 29 11:58 dnsmasq.conf
+
+-rw-r--r-- 1 qakush qakush    94 Jan 29 11:58 dnssd.conf
+
+-rw-r--r-- 1 qakush qakush  4256 Jan 29 11:58 dtk-generic.conf
+
+-rw-r--r-- 1 qakush qakush   685 Jan 29 11:58 e2scrub.conf
+
+-rw-r--r-- 1 qakush qakush   116 Jan 29 11:58 emacs.conf
+
+-rw-r--r-- 1 qakush qakush  2662 Jan 29 11:58 engines.conf
+
+-rw-r--r-- 1 qakush qakush  2734 Jan 29 11:58 epjitsu.conf
+
+-rw-r--r-- 1 qakush qakush  3942 Jan 29 11:58 epos-generic.conf
+
+-rw-r--r-- 1 qakush qakush   374 Jan 29 11:58 epson2.conf
+
+-rw-r--r-- 1 qakush qakush   792 Jan 29 11:58 epson.conf
+
+-rw-r--r-- 1 qakush qakush   293 Jan 29 11:58 epsonds.conf
+
+-rw-r--r-- 1 qakush qakush  1146 Jan 29 11:58 escl.conf
+
+-rw-r--r-- 1 qakush qakush  2320 Jan 29 11:58 espeak.conf
+
+-rw-r--r-- 1 qakush qakush  8857 Jan 29 11:58 espeak-mbrola-generic.conf
+
+-rw-r--r-- 1 qakush qakush  2325 Jan 29 11:58 espeak-ng.conf
+
+-rw-r--r-- 1 qakush qakush 10048 Jan 29 11:58 espeak-ng-mbrola-generic.conf
+
+-rw-r--r-- 1 qakush qakush  2234 Jan 29 11:58 faillock.conf
+
+-rw-r--r-- 1 qakush qakush    38 Jan 29 11:58 fakeroot-x86_64-linux-gnu.conf
+
+-rw-r--r-- 1 qakush qakush  3859 Jan 29 11:58 festival.conf
+
+-rw-r--r-- 1 qakush qakush  1124 Jan 29 11:58 flite.conf
+
+-rw-r--r-- 1 qakush qakush  2808 Jan 29 11:58 fonts.conf
+
+-rw-r--r-- 1 qakush qakush  1042 Jan 29 11:58 framework.conf
+
+-rw-r--r-- 1 qakush qakush  3355 Jan 29 11:58 fujitsu.conf
+
+-rw-r--r-- 1 qakush qakush   694 Jan 29 11:58 fuse.conf
+
+-rw-r--r-- 1 qakush qakush  2584 Jan 29 11:58 gai.conf
+
+-rw-r--r-- 1 qakush qakush  3890 Jan 29 11:58 gdm.conf
+
+-rw-r--r-- 1 qakush qakush  2342 Jan 29 11:58 genesys.conf
+
+-rw-r--r-- 1 qakush qakush  3540 Jan 29 11:58 geoclue.conf
+
+-rw-r--r-- 1 qakush qakush  1140 Jan 29 11:58 gphoto2.conf
+
+-rw-r--r-- 1 qakush qakush  3635 Jan 29 11:58 group.conf
+
+-rw-r--r-- 1 qakush qakush  7950 Jan 29 11:58 gt68xx.conf
+
+-rw-r--r-- 1 qakush qakush     9 Jan 29 11:58 host.conf
+
+-rw-r--r-- 1 qakush qakush   395 Jan 29 11:58 hp3900.conf
+
+-rw-r--r-- 1 qakush qakush    76 Jan 29 11:58 hp4200.conf
+
+-rw-r--r-- 1 qakush qakush   238 Jan 29 11:58 hp5400.conf
+
+-rw-r--r-- 1 qakush qakush   497 Jan 29 11:58 hp.conf
+
+-rw-r--r-- 1 qakush qakush    23 Jan 29 11:58 hpsj5s.conf
+
+-rw-r--r-- 1 qakush qakush    24 Jan 29 11:58 hs2p.conf
+
+-rw-r--r-- 1 qakush qakush    38 Jan 29 11:58 ibm.conf
+
+-rw-r--r-- 1 qakush qakush   890 Jan 29 11:58 im-multipress.conf
+
+-rw-r--r-- 1 qakush qakush  1365 Jan 29 11:58 initramfs.conf
+
+-rw-r--r-- 1 qakush qakush   927 Jan 29 11:58 input.conf
+
+-rw-r--r-- 1 qakush qakush  1632 Jan 29 11:58 ipp-usb.conf
+
+-rw-r--r-- 1 qakush qakush  1632 Jan 29 11:58 ivona.conf
+
+-rw-r--r-- 1 qakush qakush   127 Jan 29 11:58 javascript-common.conf
+
+-rw-r--r-- 1 qakush qakush  1052 Jan 29 11:58 journald.conf
+
+-rw-r--r-- 1 qakush qakush   144 Jan 29 11:58 kernel-img.conf
+
+-rw-r--r-- 1 qakush qakush  2597 Jan 29 11:58 kodakaio.conf
+
+-rw-r--r-- 1 qakush qakush   367 Jan 29 11:58 kodak.conf
+
+-rw-r--r-- 1 qakush qakush    39 Jan 29 11:58 kvs1025.conf
+
+-rw-r--r-- 1 qakush qakush   334 Jan 29 11:58 ldap.conf
+
+-rw-r--r-- 1 qakush qakush    34 Jan 29 11:58 ld.so.conf
+
+-rw-r--r-- 1 qakush qakush   112 Jan 29 11:58 leo.conf
+
+-rw-r--r-- 1 qakush qakush   119 Jan 29 11:58 lexmark.conf
+
+-rw-r--r-- 1 qakush qakush    26 Jan 29 11:58 libao.conf
+
+-rw-r--r-- 1 qakush qakush   191 Jan 29 11:58 libaudit.conf
+
+-rw-r--r-- 1 qakush qakush    44 Jan 29 11:58 libc.conf
+
+-rw-r--r-- 1 qakush qakush  2161 Jan 29 11:58 limits.conf
+
+-rw-r--r-- 1 qakush qakush   150 Jan 29 11:58 listchanges.conf
+
+-rw-r--r-- 1 qakush qakush  3473 Jan 29 11:58 llia_phon-generic.conf
+
+-rw-r--r-- 1 qakush qakush  1145 Jan 29 11:58 logind.conf
+
+-rw-r--r-- 1 qakush qakush   494 Jan 29 11:58 logrotate.conf
+
+-rw-r--r-- 1 qakush qakush   406 Jan 29 11:58 lvfs.conf
+
+-rw-r--r-- 1 qakush qakush   361 Jan 29 11:58 lvfs-testing.conf
+
+-rw-r--r-- 1 qakush qakush   187 Jan 29 11:58 ma1509.conf
+
+-rw-r--r-- 1 qakush qakush  1253 Jan 29 11:58 magicolor.conf
+
+-rw-r--r-- 1 qakush qakush  7344 Jan 29 11:58 main.conf
+
+-rw-r--r-- 1 qakush qakush  4038 Jan 29 11:58 mary-generic-disabled.conf
+
+-rw-r--r-- 1 qakush qakush   665 Jan 29 11:58 matsushita.conf
+
+-rw-r--r-- 1 qakush qakush  1542 Jan 29 11:58 media-session.conf
+
+-rw-r--r-- 1 qakush qakush   279 Jan 29 11:58 microtek2.conf
+
+-rw-r--r-- 1 qakush qakush   268 Jan 29 11:58 microtek.conf
+
+-rw-r--r-- 1 qakush qakush   812 Jan 29 11:58 mke2fs.conf
+
+-rw-r--r-- 1 qakush qakush  2119 Jan 29 11:58 mustek.conf
+
+-rw-r--r-- 1 qakush qakush  3801 Jan 29 11:58 mustek_pp.conf
+
+-rw-r--r-- 1 qakush qakush   808 Jan 29 11:58 mustek_usb.conf
+
+-rw-r--r-- 1 qakush qakush  1637 Jan 29 11:58 namespace.conf
+
+-rw-r--r-- 1 qakush qakush    13 Jan 29 11:58 nec.conf
+
+-rw-r--r-- 1 qakush qakush   573 Jan 29 11:58 net.conf
+
+-rw-r--r-- 1 qakush qakush  2073 Jan 29 11:58 net.hadess.SensorProxy.conf
+
+-rw-r--r-- 1 qakush qakush   929 Jan 29 11:58 net.hadess.SwitcherooControl.conf
+
+-rw-r--r-- 1 qakush qakush   120 Jan 29 11:58 network.conf
+
+-rw-r--r-- 1 qakush qakush   609 Jan 29 11:58 networkd.conf
+
+-rw-r--r-- 1 qakush qakush    58 Jan 29 11:58 NetworkManager.conf
+
+-rwxr-xr-x 1 qakush qakush   228 Jan 29 11:58 nftables.conf
+
+-rw-r--r-- 1 qakush qakush   553 Jan 29 11:58 nsswitch.conf
+
+-rw-r--r-- 1 qakush qakush   711 Jan 29 11:58 org.freedesktop.GeoClue2.Agent.conf
+
+-rw-r--r-- 1 qakush qakush  1411 Jan 29 11:58 org.freedesktop.GeoClue2.conf
+
+-rw-r--r-- 1 qakush qakush 14014 Jan 29 11:58 org.freedesktop.ModemManager1.conf
+
+-rw-r--r-- 1 qakush qakush  1331 Jan 29 11:58 org.freedesktop.PackageKit.conf
+
+-rw-r--r-- 1 qakush qakush   404 Jan 29 11:58 org.freedesktop.realmd.conf
+
+-rw-r--r-- 1 qakush qakush   535 Jan 29 11:58 org.opensuse.CupsPkHelper.Mechanism.conf
+
+-rw-r--r-- 1 qakush qakush   365 Jan 29 11:58 p5.conf
+
+-rw-r--r-- 1 qakush qakush   706 Jan 29 11:58 PackageKit.conf
+
+-rw-r--r-- 1 qakush qakush   552 Jan 29 11:58 pam.conf
+
+-rw-r--r-- 1 qakush qakush  2971 Jan 29 11:58 pam_env.conf
+
+-rw-r--r-- 1 qakush qakush  1597 Jan 29 11:58 parser.conf
+
+-rw-r--r-- 1 qakush qakush    75 Jan 29 11:58 pie.conf
+
+-rw-r--r-- 1 qakush qakush   554 Jan 29 11:58 pieusb.conf
+
+-rw-r--r-- 1 qakush qakush  4068 Jan 29 11:58 pipewire.conf
+
+-rw-r--r-- 1 qakush qakush  1247 Jan 29 11:58 pixma.conf
+
+-rw-r--r-- 1 qakush qakush  4140 Jan 29 11:58 plustek.conf
+
+-rw-r--r-- 1 qakush qakush   942 Jan 29 11:58 plustek_pp.conf
+
+-rw-r--r-- 1 qakush qakush    87 Jan 29 11:58 plymouthd.conf
+
+-rw-r--r-- 1 qakush qakush  4043 Jan 29 11:58 psprint.conf
+
+-rw-r--r-- 1 qakush qakush   529 Jan 29 11:58 pstore.conf
+
+-rw-r--r-- 1 qakush qakush  1084 Jan 29 11:58 pulseaudio-system.conf
+
+-rw-r--r-- 1 qakush qakush  2674 Jan 29 11:58 pwquality.conf
+
+-rw-r--r-- 1 qakush qakush   391 Jan 29 11:58 qcam.conf
+
+-rw-r--r-- 1 qakush qakush   302 Jan 29 11:58 redfish.conf
+
+-rw-r--r-- 1 qakush qakush  3281 Jan 29 11:58 reportbug.conf
+
+-rw-r--r-- 1 qakush qakush    66 Jan 29 11:58 resolv.conf
+
+-rw-r--r-- 1 qakush qakush   943 Jan 29 11:58 resolved.conf
+
+-rw-r--r-- 1 qakush qakush    29 Jan 29 11:58 ricoh.conf
+
+-rw-r--r-- 1 qakush qakush  1974 Jan 29 11:58 rsyslog.conf
+
+-rw-r--r-- 1 qakush qakush   183 Jan 29 11:58 rts8891.conf
+
+-rw-r--r-- 1 qakush qakush  5428 Jan 29 11:58 rygel.conf
+
+-rw-r--r-- 1 qakush qakush    13 Jan 29 11:58 s9036.conf
+
+-rw-r--r-- 1 qakush qakush  1052 Jan 29 11:58 saned.conf
+
+-rw-r--r-- 1 qakush qakush    48 Jan 29 11:58 sceptre.conf
+
+-rw-r--r-- 1 qakush qakush  2041 Jan 29 11:58 semanage.conf
+
+-rw-r--r-- 1 qakush qakush 10593 Jan 29 11:58 sensors3.conf
+
+-rw-r--r-- 1 qakush qakush   419 Jan 29 11:58 sepermit.conf
+
+-rw-r--r-- 1 qakush qakush  1458 Jan 29 11:58 sharp.conf
+
+-rw-r--r-- 1 qakush qakush   790 Jan 29 11:58 sleep.conf
+
+-rw-r--r-- 1 qakush qakush   115 Jan 29 11:58 sm3840.conf
+
+-rw-r--r-- 1 qakush qakush  2239 Jan 29 11:58 snapscan.conf
+
+-rw-r--r-- 1 qakush qakush   510 Jan 29 11:58 snmp.conf
+
+-rw-r--r-- 1 qakush qakush    10 Jan 29 11:58 sp15c.conf
+
+-rw-r--r-- 1 qakush qakush 13861 Jan 29 11:58 speechd.conf
+
+-rw-r--r-- 1 qakush qakush  2224 Jan 29 11:58 st400.conf
+
+-rw-r--r-- 1 qakush qakush   178 Jan 29 11:58 stv680.conf
+
+-rw-r--r-- 1 qakush qakush  3975 Jan 29 11:58 sudo.conf
+
+-rw-r--r-- 1 qakush qakush  6169 Jan 29 11:58 sudo_logsrvd.conf
+
+-rw-r--r-- 1 qakush qakush  3759 Jan 29 11:58 swift-generic.conf
+
+-rw-r--r-- 1 qakush qakush  2355 Jan 29 11:58 sysctl.conf
+
+-rw-r--r-- 1 qakush qakush  1774 Jan 29 11:58 system.conf
+
+-rw-r--r-- 1 qakush qakush    27 Jan 29 11:58 tamarack.conf
+
+-rw-r--r-- 1 qakush qakush   355 Jan 29 11:58 teco1.conf
+
+-rw-r--r-- 1 qakush qakush   634 Jan 29 11:58 teco2.conf
+
+-rw-r--r-- 1 qakush qakush   217 Jan 29 11:58 teco3.conf
+
+-rw-r--r-- 1 qakush qakush  1807 Jan 29 11:58 test.conf
+
+-rw-r--r-- 1 qakush qakush   274 Jan 29 11:58 thunderbolt.conf
+
+-rw-r--r-- 1 qakush qakush  2179 Jan 29 11:58 time.conf
+
+-rw-r--r-- 1 qakush qakush   677 Jan 29 11:58 timesyncd.conf
+
+-rw-r--r-- 1 qakush qakush  1494 Jan 29 11:58 u12.conf
+
+-rw-r--r-- 1 qakush qakush  1260 Jan 29 11:58 ucf.conf
+
+-rw-r--r-- 1 qakush qakush   305 Jan 29 11:58 udev.conf
+
+-rw-r--r-- 1 qakush qakush   251 Jan 29 11:58 udisks2.conf
+
+-rw-r--r-- 1 qakush qakush   565 Jan 29 11:58 uefi_capsule.conf
+
+-rw-r--r-- 1 qakush qakush   386 Jan 29 11:58 umax1220u.conf
+
+-rw-r--r-- 1 qakush qakush  3082 Jan 29 11:58 umax.conf
+
+-rw-r--r-- 1 qakush qakush  1681 Jan 29 11:58 umax_pp.conf
+
+-rw-r--r-- 1 qakush qakush   378 Jan 29 11:58 update-initramfs.conf
+
+-rw-r--r-- 1 qakush qakush   121 Jan 29 11:58 upower.conf
+
+-rw-r--r-- 1 qakush qakush  2836 Jan 29 11:58 UPower.conf
+
+-rw-r--r-- 1 qakush qakush  1523 Jan 29 11:58 usb_modeswitch.conf
+
+-rw-r--r-- 1 qakush qakush  1197 Jan 29 11:58 user.conf
+
+-rw-r--r-- 1 qakush qakush   414 Jan 29 11:58 user-dirs.conf
+
+-rw-r--r-- 1 qakush qakush    75 Jan 29 11:58 vboxvideo-upstream.conf
+
+-rw-r--r-- 1 qakush qakush   317 Jan 29 11:58 vendor.conf
+
+-rw-r--r-- 1 qakush qakush  1889 Jan 29 11:58 Vendor.conf
+
+-rw-r--r-- 1 qakush qakush   296 Jan 29 11:58 vendor-directory.conf
+
+-rw-r--r-- 1 qakush qakush  1160 Jan 29 11:58 wpa_supplicant.conf
+
+-rw-r--r-- 1 qakush qakush   100 Jan 29 11:58 x86_64-linux-gnu.conf
+
+-rw-r--r-- 1 qakush qakush   642 Jan 29 11:58 xattr.conf
+
+-rw-r--r-- 1 qakush qakush  4069 Jan 29 11:58 xerox_mfp.conf
+
+qakush@qakush:~$ find /etc -type f -name "*.conf"
+
+/etc/dhcp/dhclient.conf
+
+/etc/host.conf
+
+/etc/fuse.conf
+
+/etc/initramfs-tools/update-initramfs.conf
+
+/etc/initramfs-tools/initramfs.conf
+
+/etc/sysctl.conf
+
+/etc/sudo.conf
+
+/etc/openal/alsoft.conf
+
+/etc/mke2fs.conf
+
+/etc/deluser.conf
+
+/etc/debconf.conf
+
+/etc/ld.so.conf
+
+/etc/sudo_logsrvd.conf
+
+/etc/libreoffice/psprint.conf
+
+/etc/dleyna-server-service.conf
+
+/etc/pam.conf
+
+/etc/ld.so.conf.d/x86_64-linux-gnu.conf
+
+/etc/ld.so.conf.d/fakeroot-x86_64-linux-gnu.conf
+
+/etc/ld.so.conf.d/libc.conf
+
+/etc/systemd/sleep.conf
+
+/etc/systemd/user.conf
+
+/etc/systemd/system.conf
+
+/etc/systemd/timesyncd.conf
+
+/etc/systemd/journald.conf
+
+/etc/systemd/logind.conf
+
+/etc/systemd/networkd.conf
+
+/etc/systemd/pstore.conf
+
+/etc/systemd/resolved.conf
+
+/etc/bluetooth/network.conf
+
+/etc/bluetooth/input.conf
+
+/etc/bluetooth/main.conf
+
+/etc/depmod.d/vboxvideo-upstream.conf
+
+/etc/speech-dispatcher/modules/ivona.conf
+
+/etc/speech-dispatcher/modules/mary-generic-disabled.conf
+
+/etc/speech-dispatcher/modules/festival.conf
+
+/etc/speech-dispatcher/modules/llia_phon-generic.conf
+
+/etc/speech-dispatcher/modules/espeak-mbrola-generic.conf
+
+/etc/speech-dispatcher/modules/cicero.conf
+
+/etc/speech-dispatcher/modules/epos-generic.conf
+
+/etc/speech-dispatcher/modules/swift-generic.conf
+
+/etc/speech-dispatcher/modules/dtk-generic.conf
+
+/etc/speech-dispatcher/modules/espeak-ng-mbrola-generic.conf
+
+/etc/speech-dispatcher/modules/espeak-ng.conf
+
+/etc/speech-dispatcher/modules/espeak.conf
+
+/etc/speech-dispatcher/modules/flite.conf
+
+/etc/speech-dispatcher/clients/emacs.conf
+
+/etc/speech-dispatcher/speechd.conf
+
+/etc/adduser.conf
+
+/etc/discover-modprobe.conf
+
+/etc/nftables.conf
+
+/etc/environment.d/90atk-adaptor.conf
+
+/etc/environment.d/90qt-a11y.conf
+
+/etc/libaudit.conf
+
+/etc/gdm3/daemon.conf
+
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-japan1.conf
+
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-korea1.conf
+
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-gb1.conf
+
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-japan2.conf
+
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-cns1.conf
+
+/etc/dkms/framework.conf
+
+/etc/appstream.conf
+
+/etc/resolv.conf
+
+/etc/fonts/conf.avail/58-dejavu-lgc-serif.conf
+
+/etc/fonts/conf.avail/30-droid-noto-mono.conf
+
+/etc/fonts/conf.avail/65-droid-sans-fallback.conf
+
+/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-serif.conf
+
+/etc/fonts/conf.avail/57-dejavu-sans-mono.conf
+
+/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans-mono.conf
+
+/etc/fonts/conf.avail/57-dejavu-serif.conf
+
+/etc/fonts/conf.avail/20-unhint-small-dejavu-sans.conf
+
+/etc/fonts/conf.avail/20-unhint-small-dejavu-sans-mono.conf
+
+/etc/fonts/conf.avail/57-dejavu-sans.conf
+
+/etc/fonts/conf.avail/20-unhint-small-dejavu-serif.conf
+
+/etc/fonts/conf.avail/58-dejavu-lgc-sans.conf
+
+/etc/fonts/conf.avail/58-dejavu-lgc-sans-mono.conf
+
+/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans.conf
+
+/etc/fonts/fonts.conf
+
+/etc/apparmor/parser.conf
+
+/etc/modprobe.d/dkms.conf
+
+/etc/security/limits.conf
+
+/etc/security/faillock.conf
+
+/etc/security/pwquality.conf
+
+/etc/security/sepermit.conf
+
+/etc/security/namespace.conf
+
+/etc/security/pam_env.conf
+
+/etc/security/access.conf
+
+/etc/security/time.conf
+
+/etc/security/group.conf
+
+find: ‘/etc/ssl/private’: Permission denied
+
+/etc/ucf.conf
+
+/etc/geoclue/geoclue.conf
+
+/etc/avahi/avahi-daemon.conf
+
+/etc/nsswitch.conf
+
+/etc/pulse/daemon.conf
+
+/etc/pulse/client.conf
+
+/etc/UPower/UPower.conf
+
+/etc/apg.conf
+
+/etc/xattr.conf
+
+/etc/pipewire/media-session.d/media-session.conf
+
+/etc/pipewire/media-session.d/alsa-monitor.conf
+
+/etc/pipewire/pipewire.conf
+
+/etc/fwupd/upower.conf
+
+/etc/fwupd/daemon.conf
+
+/etc/fwupd/uefi_capsule.conf
+
+/etc/fwupd/thunderbolt.conf
+
+/etc/fwupd/remotes.d/lvfs-testing.conf
+
+/etc/fwupd/remotes.d/vendor.conf
+
+/etc/fwupd/remotes.d/lvfs.conf
+
+/etc/fwupd/remotes.d/vendor-directory.conf
+
+/etc/fwupd/remotes.d/dell-esrt.conf
+
+/etc/fwupd/redfish.conf
+
+/etc/apt/listchanges.conf
+
+/etc/gtk-2.0/im-multipress.conf
+
+/etc/kernel-img.conf
+
+/etc/selinux/semanage.conf
+
+/etc/snmp/snmp.conf
+
+/etc/ipp-usb/ipp-usb.conf
+
+/etc/gnome-chess/engines.conf
+
+/etc/gai.conf
+
+/etc/cracklib/cracklib.conf
+
+/etc/sensors3.conf
+
+/etc/lighttpd/conf-available/90-javascript-alias.conf
+
+/etc/e2scrub.conf
+
+/etc/dbus-1/system.d/dnsmasq.conf
+
+/etc/dbus-1/system.d/org.freedesktop.GeoClue2.Agent.conf
+
+/etc/dbus-1/system.d/com.redhat.PrinterDriversInstaller.conf
+
+/etc/dbus-1/system.d/net.hadess.SensorProxy.conf
+
+/etc/dbus-1/system.d/org.freedesktop.GeoClue2.conf
+
+/etc/dbus-1/system.d/avahi-dbus.conf
+
+/etc/dbus-1/system.d/org.freedesktop.realmd.conf
+
+/etc/dbus-1/system.d/bluetooth.conf
+
+/etc/dbus-1/system.d/org.freedesktop.PackageKit.conf
+
+/etc/dbus-1/system.d/net.hadess.SwitcherooControl.conf
+
+/etc/dbus-1/system.d/org.freedesktop.ModemManager1.conf
+
+/etc/dbus-1/system.d/gdm.conf
+
+/etc/dbus-1/system.d/com.ubuntu.SoftwareProperties.conf
+
+/etc/dbus-1/system.d/com.redhat.NewPrinterNotification.conf
+
+/etc/dbus-1/system.d/pulseaudio-system.conf
+
+/etc/dbus-1/system.d/org.opensuse.CupsPkHelper.Mechanism.conf
+
+/etc/dbus-1/system.d/wpa_supplicant.conf
+
+/etc/gtk-3.0/im-multipress.conf
+
+/etc/udisks2/udisks2.conf
+
+/etc/NetworkManager/NetworkManager.conf
+
+/etc/ldap/ldap.conf
+
+/etc/ca-certificates.conf
+
+/etc/sane.d/st400.conf
+
+/etc/sane.d/tamarack.conf
+
+/etc/sane.d/snapscan.conf
+
+/etc/sane.d/coolscan.conf
+
+/etc/sane.d/epson2.conf
+
+/etc/sane.d/mustek.conf
+
+/etc/sane.d/canon630u.conf
+
+/etc/sane.d/dmc.conf
+
+/etc/sane.d/dc240.conf
+
+/etc/sane.d/escl.conf
+
+/etc/sane.d/gt68xx.conf
+
+/etc/sane.d/epsonds.conf
+
+/etc/sane.d/sp15c.conf
+
+/etc/sane.d/sharp.conf
+
+/etc/sane.d/plustek_pp.conf
+
+/etc/sane.d/umax.conf
+
+/etc/sane.d/ibm.conf
+
+/etc/sane.d/lexmark.conf
+
+/etc/sane.d/plustek.conf
+
+/etc/sane.d/kodakaio.conf
+
+/etc/sane.d/ricoh.conf
+
+/etc/sane.d/stv680.conf
+
+/etc/sane.d/coolscan2.conf
+
+/etc/sane.d/hpsj5s.conf
+
+/etc/sane.d/dll.conf
+
+/etc/sane.d/genesys.conf
+
+/etc/sane.d/hs2p.conf
+
+/etc/sane.d/pie.conf
+
+/etc/sane.d/pixma.conf
+
+/etc/sane.d/coolscan3.conf
+
+/etc/sane.d/rts8891.conf
+
+/etc/sane.d/dell1600n_net.conf
+
+/etc/sane.d/canon_lide70.conf
+
+/etc/sane.d/umax1220u.conf
+
+/etc/sane.d/mustek_pp.conf
+
+/etc/sane.d/sceptre.conf
+
+/etc/sane.d/matsushita.conf
+
+/etc/sane.d/epson.conf
+
+/etc/sane.d/gphoto2.conf
+
+/etc/sane.d/dc210.conf
+
+/etc/sane.d/u12.conf
+
+/etc/sane.d/kvs1025.conf
+
+/etc/sane.d/microtek2.conf
+
+/etc/sane.d/abaton.conf
+
+/etc/sane.d/agfafocus.conf
+
+/etc/sane.d/net.conf
+
+/etc/sane.d/hp5400.conf
+
+/etc/sane.d/hp.conf
+
+/etc/sane.d/umax_pp.conf
+
+/etc/sane.d/cardscan.conf
+
+/etc/sane.d/teco3.conf
+
+/etc/sane.d/dc25.conf
+
+/etc/sane.d/teco2.conf
+
+/etc/sane.d/magicolor.conf
+
+/etc/sane.d/apple.conf
+
+/etc/sane.d/pieusb.conf
+
+/etc/sane.d/bh.conf
+
+/etc/sane.d/nec.conf
+
+/etc/sane.d/test.conf
+
+/etc/sane.d/artec.conf
+
+/etc/sane.d/canon.conf
+
+/etc/sane.d/microtek.conf
+
+/etc/sane.d/saned.conf
+
+/etc/sane.d/s9036.conf
+
+/etc/sane.d/p5.conf
+
+/etc/sane.d/fujitsu.conf
+
+/etc/sane.d/qcam.conf
+
+/etc/sane.d/hp4200.conf
+
+/etc/sane.d/canon_pp.conf
+
+/etc/sane.d/xerox_mfp.conf
+
+/etc/sane.d/sm3840.conf
+
+/etc/sane.d/epjitsu.conf
+
+/etc/sane.d/teco1.conf
+
+/etc/sane.d/ma1509.conf
+
+/etc/sane.d/leo.conf
+
+/etc/sane.d/artec_eplus48u.conf
+
+/etc/sane.d/canon_dr.conf
+
+/etc/sane.d/mustek_usb.conf
+
+/etc/sane.d/avision.conf
+
+/etc/sane.d/kodak.conf
+
+/etc/sane.d/hp3900.conf
+
+/etc/plymouth/plymouthd.conf
+
+/etc/apache2/mods-available/dnssd.conf
+
+/etc/apache2/conf-available/javascript-common.conf
+
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+
+/etc/polkit-1/localauthority.conf.d/50-localauthority.conf
+
+/etc/polkit-1/localauthority.conf.d/51-debian-sudo.conf
+
+/etc/xdg/user-dirs.conf
+
+/etc/udev/udev.conf
+
+/etc/usb_modeswitch.conf
+
+/etc/rygel.conf
+
+/etc/PackageKit/PackageKit.conf
+
+/etc/PackageKit/Vendor.conf
+
+/etc/libao.conf
+
+/etc/logrotate.conf
+
+/etc/rsyslog.conf
+
+/etc/reportbug.conf
+
+qakush@qakush:~$ cd etcbackup
+
+qakush@qakush:~/etcbackup$ touch file.conf file2.conf
+
+qakush@qakush:~/etcbackup$ file file.conf file2.conf
+
+file.conf:  empty
+
+file2.conf: empty
+
+qakush@qakush:~/etcbackup$ rename 's/.conf/.backup/' *.conf
+
+qakush@qakush:~/etcbackup$ ls -l
+
+total 1048
+
+-rw-r--r-- 1 qakush qakush   864 Jan 29 11:58 20-unhint-small-dejavu-lgc-sans.backup
+
+-rw-r--r-- 1 qakush qakush   874 Jan 29 11:58 20-unhint-small-dejavu-lgc-sans-mono.backup
+
+-rw-r--r-- 1 qakush qakush   866 Jan 29 11:58 20-unhint-small-dejavu-lgc-serif.backup
+
+-rw-r--r-- 1 qakush qakush   856 Jan 29 11:58 20-unhint-small-dejavu-sans.backup
+
+-rw-r--r-- 1 qakush qakush   866 Jan 29 11:58 20-unhint-small-dejavu-sans-mono.backup
+
+-rw-r--r-- 1 qakush qakush   858 Jan 29 11:58 20-unhint-small-dejavu-serif.backup
+
+-rw-r--r-- 1 qakush qakush   218 Jan 29 11:58 30-droid-noto-mono.backup
+
+-rw-r--r-- 1 qakush qakush   267 Jan 29 11:58 50-localauthority.backup
+
+-rw-r--r-- 1 qakush qakush    48 Jan 29 11:58 51-debian-sudo.backup
+
+-rw-r--r-- 1 qakush qakush  1711 Jan 29 11:58 57-dejavu-sans.backup
+
+-rw-r--r-- 1 qakush qakush  1201 Jan 29 11:58 57-dejavu-sans-mono.backup
+
+-rw-r--r-- 1 qakush qakush  1357 Jan 29 11:58 57-dejavu-serif.backup
+
+-rw-r--r-- 1 qakush qakush  2063 Jan 29 11:58 58-dejavu-lgc-sans.backup
+
+-rw-r--r-- 1 qakush qakush  1545 Jan 29 11:58 58-dejavu-lgc-sans-mono.backup
+
+-rw-r--r-- 1 qakush qakush  1689 Jan 29 11:58 58-dejavu-lgc-serif.backup
+
+-rw-r--r-- 1 qakush qakush   202 Jan 29 11:58 65-droid-sans-fallback.backup
+
+-rw-r--r-- 1 qakush qakush    57 Jan 29 11:58 90atk-adaptor.backup
+
+-rw-r--r-- 1 qakush qakush   475 Jan 29 11:58 90gs-cjk-resource-cns1.backup
+
+-rw-r--r-- 1 qakush qakush   504 Jan 29 11:58 90gs-cjk-resource-gb1.backup
+
+-rw-r--r-- 1 qakush qakush   546 Jan 29 11:58 90gs-cjk-resource-japan1.backup
+
+-rw-r--r-- 1 qakush qakush   387 Jan 29 11:58 90gs-cjk-resource-japan2.backup
+
+-rw-r--r-- 1 qakush qakush   786 Jan 29 11:58 90gs-cjk-resource-korea1.backup
+
+-rw-r--r-- 1 qakush qakush    56 Jan 29 11:58 90-javascript-alias.backup
+
+-rw-r--r-- 1 qakush qakush    19 Jan 29 11:58 90qt-a11y.backup
+
+-rw-r--r-- 1 qakush qakush    25 Jan 29 11:58 abaton.backup
+
+-rw-r--r-- 1 qakush qakush  4564 Jan 29 11:58 access.backup
+
+-rw-r--r-- 1 qakush qakush  2981 Jan 29 11:58 adduser.backup
+
+-rw-r--r-- 1 qakush qakush    13 Jan 29 11:58 agfafocus.backup
+
+-rw-r--r-- 1 qakush qakush  1758 Jan 29 11:58 alsa-monitor.backup
+
+-rw-r--r-- 1 qakush qakush 18838 Jan 29 11:58 alsoft.backup
+
+-rw-r--r-- 1 qakush qakush   433 Jan 29 11:58 apg.backup
+
+-rw-r--r-- 1 qakush qakush    24 Jan 29 11:58 apple.backup
+
+-rw-r--r-- 1 qakush qakush   769 Jan 29 11:58 appstream.backup
+
+-rw-r--r-- 1 qakush qakush    25 Jan 29 11:58 artec.backup
+
+-rw-r--r-- 1 qakush qakush  4139 Jan 29 11:58 artec_eplus48u.backup
+
+-rw-r--r-- 1 qakush qakush  1807 Jan 29 11:58 avahi-daemon.backup
+
+-rw-r--r-- 1 qakush qakush  1144 Jan 29 11:58 avahi-dbus.backup
+
+-rw-r--r-- 1 qakush qakush   547 Jan 29 11:58 avision.backup
+
+-rw-r--r-- 1 qakush qakush    29 Jan 29 11:58 bh.backup
+
+-rw-r--r-- 1 qakush qakush  1261 Jan 29 11:58 bluetooth.backup
+
+-rw-r--r-- 1 qakush qakush  5662 Jan 29 11:58 ca-certificates.backup
+
+-rw-r--r-- 1 qakush qakush   193 Jan 29 11:58 canon630u.backup
+
+-rw-r--r-- 1 qakush qakush    26 Jan 29 11:58 canon.backup
+
+-rw-r--r-- 1 qakush qakush  3960 Jan 29 11:58 canon_dr.backup
+
+-rw-r--r-- 1 qakush qakush   198 Jan 29 11:58 canon_lide70.backup
+
+-rw-r--r-- 1 qakush qakush  1158 Jan 29 11:58 canon_pp.backup
+
+-rw-r--r-- 1 qakush qakush   552 Jan 29 11:58 cardscan.backup
+
+-rw-r--r-- 1 qakush qakush  1752 Jan 29 11:58 cicero.backup
+
+-rw-r--r-- 1 qakush qakush  1201 Jan 29 11:58 client.backup
+
+-rw-r--r-- 1 qakush qakush   792 Jan 29 11:58 com.redhat.NewPrinterNotification.backup
+
+-rw-r--r-- 1 qakush qakush   799 Jan 29 11:58 com.redhat.PrinterDriversInstaller.backup
+
+-rw-r--r-- 1 qakush qakush   662 Jan 29 11:58 com.ubuntu.SoftwareProperties.backup
+
+-rw-r--r-- 1 qakush qakush   754 Jan 29 11:58 coolscan2.backup
+
+-rw-r--r-- 1 qakush qakush   754 Jan 29 11:58 coolscan3.backup
+
+-rw-r--r-- 1 qakush qakush    34 Jan 29 11:58 coolscan.backup
+
+-rw-r--r-- 1 qakush qakush  1816 Jan 29 11:58 cracklib.backup
+
+-rw-r--r-- 1 qakush qakush  1373 Jan 29 11:58 daemon.backup
+
+-rw-r--r-- 1 qakush qakush   983 Jan 29 11:58 dc210.backup
+
+-rw-r--r-- 1 qakush qakush   983 Jan 29 11:58 dc240.backup
+
+-rw-r--r-- 1 qakush qakush   703 Jan 29 11:58 dc25.backup
+
+-rw-r--r-- 1 qakush qakush  2969 Jan 29 11:58 de.backup.conf
+
+-rw-r--r-- 1 qakush qakush   490 Jan 29 11:58 dell1600n_net.backup
+
+-rw-r--r-- 1 qakush qakush   247 Jan 29 11:58 dell-esrt.backup
+
+-rw-r--r-- 1 qakush qakush   604 Jan 29 11:58 deluser.backup
+
+-rw-r--r-- 1 qakush qakush  1735 Jan 29 11:58 dhclient.backup
+
+-rw-r--r-- 1 qakush qakush   346 Jan 29 11:58 discover-modprobe.backup
+
+-rw-r--r-- 1 qakush qakush   127 Jan 29 11:58 dkms.backup
+
+-rw-r--r-- 1 qakush qakush  1174 Jan 29 11:58 dleyna-server-service.backup
+
+-rw-r--r-- 1 qakush qakush  1128 Jan 29 11:58 dll.backup
+
+-rw-r--r-- 1 qakush qakush    12 Jan 29 11:58 dmc.backup
+
+-rw-r--r-- 1 qakush qakush   652 Jan 29 11:58 dnsmasq.backup
+
+-rw-r--r-- 1 qakush qakush    94 Jan 29 11:58 dnssd.backup
+
+-rw-r--r-- 1 qakush qakush  4256 Jan 29 11:58 dtk-generic.backup
+
+-rw-r--r-- 1 qakush qakush   685 Jan 29 11:58 e2scrub.backup
+
+-rw-r--r-- 1 qakush qakush   116 Jan 29 11:58 emacs.backup
+
+-rw-r--r-- 1 qakush qakush  2662 Jan 29 11:58 engines.backup
+
+-rw-r--r-- 1 qakush qakush  2734 Jan 29 11:58 epjitsu.backup
+
+-rw-r--r-- 1 qakush qakush  3942 Jan 29 11:58 epos-generic.backup
+
+-rw-r--r-- 1 qakush qakush   374 Jan 29 11:58 epson2.backup
+
+-rw-r--r-- 1 qakush qakush   792 Jan 29 11:58 epson.backup
+
+-rw-r--r-- 1 qakush qakush   293 Jan 29 11:58 epsonds.backup
+
+-rw-r--r-- 1 qakush qakush  1146 Jan 29 11:58 escl.backup
+
+-rw-r--r-- 1 qakush qakush  2320 Jan 29 11:58 espeak.backup
+
+-rw-r--r-- 1 qakush qakush  8857 Jan 29 11:58 espeak-mbrola-generic.backup
+
+-rw-r--r-- 1 qakush qakush  2325 Jan 29 11:58 espeak-ng.backup
+
+-rw-r--r-- 1 qakush qakush 10048 Jan 29 11:58 espeak-ng-mbrola-generic.backup
+
+-rw-r--r-- 1 qakush qakush  2234 Jan 29 11:58 faillock.backup
+
+-rw-r--r-- 1 qakush qakush    38 Jan 29 11:58 fakeroot-x86_64-linux-gnu.backup
+
+-rw-r--r-- 1 qakush qakush  3859 Jan 29 11:58 festival.backup
+
+-rw-r--r-- 1 qakush qakush     0 Jan 29 12:13 file2.backup
+
+-rw-r--r-- 1 qakush qakush     0 Jan 29 12:13 file.backup
+
+-rw-r--r-- 1 qakush qakush  1124 Jan 29 11:58 flite.backup
+
+-rw-r--r-- 1 qakush qakush  2808 Jan 29 11:58 fonts.backup
+
+-rw-r--r-- 1 qakush qakush  1042 Jan 29 11:58 framework.backup
+
+-rw-r--r-- 1 qakush qakush  3355 Jan 29 11:58 fujitsu.backup
+
+-rw-r--r-- 1 qakush qakush   694 Jan 29 11:58 fuse.backup
+
+-rw-r--r-- 1 qakush qakush  2584 Jan 29 11:58 gai.backup
+
+-rw-r--r-- 1 qakush qakush  3890 Jan 29 11:58 gdm.backup
+
+-rw-r--r-- 1 qakush qakush  2342 Jan 29 11:58 genesys.backup
+
+-rw-r--r-- 1 qakush qakush  3540 Jan 29 11:58 geoclue.backup
+
+-rw-r--r-- 1 qakush qakush  1140 Jan 29 11:58 gphoto2.backup
+
+-rw-r--r-- 1 qakush qakush  3635 Jan 29 11:58 group.backup
+
+-rw-r--r-- 1 qakush qakush  7950 Jan 29 11:58 gt68xx.backup
+
+-rw-r--r-- 1 qakush qakush     9 Jan 29 11:58 host.backup
+
+-rw-r--r-- 1 qakush qakush   395 Jan 29 11:58 hp3900.backup
+
+-rw-r--r-- 1 qakush qakush    76 Jan 29 11:58 hp4200.backup
+
+-rw-r--r-- 1 qakush qakush   238 Jan 29 11:58 hp5400.backup
+
+-rw-r--r-- 1 qakush qakush   497 Jan 29 11:58 hp.backup
+
+-rw-r--r-- 1 qakush qakush    23 Jan 29 11:58 hpsj5s.backup
+
+-rw-r--r-- 1 qakush qakush    24 Jan 29 11:58 hs2p.backup
+
+-rw-r--r-- 1 qakush qakush    38 Jan 29 11:58 ibm.backup
+
+-rw-r--r-- 1 qakush qakush   890 Jan 29 11:58 im-multipress.backup
+
+-rw-r--r-- 1 qakush qakush  1365 Jan 29 11:58 initramfs.backup
+
+-rw-r--r-- 1 qakush qakush   927 Jan 29 11:58 input.backup
+
+-rw-r--r-- 1 qakush qakush  1632 Jan 29 11:58 ipp-usb.backup
+
+-rw-r--r-- 1 qakush qakush  1632 Jan 29 11:58 ivona.backup
+
+-rw-r--r-- 1 qakush qakush   127 Jan 29 11:58 javascript-common.backup
+
+-rw-r--r-- 1 qakush qakush  1052 Jan 29 11:58 journald.backup
+
+-rw-r--r-- 1 qakush qakush   144 Jan 29 11:58 kernel-img.backup
+
+-rw-r--r-- 1 qakush qakush  2597 Jan 29 11:58 kodakaio.backup
+
+-rw-r--r-- 1 qakush qakush   367 Jan 29 11:58 kodak.backup
+
+-rw-r--r-- 1 qakush qakush    39 Jan 29 11:58 kvs1025.backup
+
+-rw-r--r-- 1 qakush qakush   334 Jan 29 11:58 ldap.backup
+
+-rw-r--r-- 1 qakush qakush    34 Jan 29 11:58 ld.so.backup
+
+-rw-r--r-- 1 qakush qakush   112 Jan 29 11:58 leo.backup
+
+-rw-r--r-- 1 qakush qakush   119 Jan 29 11:58 lexmark.backup
+
+-rw-r--r-- 1 qakush qakush    26 Jan 29 11:58 libao.backup
+
+-rw-r--r-- 1 qakush qakush   191 Jan 29 11:58 libaudit.backup
+
+-rw-r--r-- 1 qakush qakush    44 Jan 29 11:58 libc.backup
+
+-rw-r--r-- 1 qakush qakush  2161 Jan 29 11:58 limits.backup
+
+-rw-r--r-- 1 qakush qakush   150 Jan 29 11:58 listchanges.backup
+
+-rw-r--r-- 1 qakush qakush  3473 Jan 29 11:58 llia_phon-generic.backup
+
+-rw-r--r-- 1 qakush qakush  1145 Jan 29 11:58 logind.backup
+
+-rw-r--r-- 1 qakush qakush   494 Jan 29 11:58 logrotate.backup
+
+-rw-r--r-- 1 qakush qakush   406 Jan 29 11:58 lvfs.backup
+
+-rw-r--r-- 1 qakush qakush   361 Jan 29 11:58 lvfs-testing.backup
+
+-rw-r--r-- 1 qakush qakush   187 Jan 29 11:58 ma1509.backup
+
+-rw-r--r-- 1 qakush qakush  1253 Jan 29 11:58 magicolor.backup
+
+-rw-r--r-- 1 qakush qakush  7344 Jan 29 11:58 main.backup
+
+-rw-r--r-- 1 qakush qakush  4038 Jan 29 11:58 mary-generic-disabled.backup
+
+-rw-r--r-- 1 qakush qakush   665 Jan 29 11:58 matsushita.backup
+
+-rw-r--r-- 1 qakush qakush  1542 Jan 29 11:58 media-session.backup
+
+-rw-r--r-- 1 qakush qakush   279 Jan 29 11:58 microtek2.backup
+
+-rw-r--r-- 1 qakush qakush   268 Jan 29 11:58 microtek.backup
+
+-rw-r--r-- 1 qakush qakush   812 Jan 29 11:58 mke2fs.backup
+
+-rw-r--r-- 1 qakush qakush  2119 Jan 29 11:58 mustek.backup
+
+-rw-r--r-- 1 qakush qakush  3801 Jan 29 11:58 mustek_pp.backup
+
+-rw-r--r-- 1 qakush qakush   808 Jan 29 11:58 mustek_usb.backup
+
+-rw-r--r-- 1 qakush qakush  1637 Jan 29 11:58 namespace.backup
+
+-rw-r--r-- 1 qakush qakush    13 Jan 29 11:58 nec.backup
+
+-rw-r--r-- 1 qakush qakush   573 Jan 29 11:58 net.backup
+
+-rw-r--r-- 1 qakush qakush  2073 Jan 29 11:58 net.hadess.SensorProxy.backup
+
+-rw-r--r-- 1 qakush qakush   929 Jan 29 11:58 net.hadess.SwitcherooControl.backup
+
+-rw-r--r-- 1 qakush qakush   120 Jan 29 11:58 network.backup
+
+-rw-r--r-- 1 qakush qakush   609 Jan 29 11:58 networkd.backup
+
+-rw-r--r-- 1 qakush qakush    58 Jan 29 11:58 NetworkManager.backup
+
+-rwxr-xr-x 1 qakush qakush   228 Jan 29 11:58 nftables.backup
+
+-rw-r--r-- 1 qakush qakush   553 Jan 29 11:58 nsswitch.backup
+
+-rw-r--r-- 1 qakush qakush   711 Jan 29 11:58 org.freedesktop.GeoClue2.Agent.backup
+
+-rw-r--r-- 1 qakush qakush  1411 Jan 29 11:58 org.freedesktop.GeoClue2.backup
+
+-rw-r--r-- 1 qakush qakush 14014 Jan 29 11:58 org.freedesktop.ModemManager1.backup
+
+-rw-r--r-- 1 qakush qakush  1331 Jan 29 11:58 org.freedesktop.PackageKit.backup
+
+-rw-r--r-- 1 qakush qakush   404 Jan 29 11:58 org.freedesktop.realmd.backup
+
+-rw-r--r-- 1 qakush qakush   535 Jan 29 11:58 org.opensuse.CupsPkHelper.Mechanism.backup
+
+-rw-r--r-- 1 qakush qakush   365 Jan 29 11:58 p5.backup
+
+-rw-r--r-- 1 qakush qakush   706 Jan 29 11:58 PackageKit.backup
+
+-rw-r--r-- 1 qakush qakush   552 Jan 29 11:58 pam.backup
+
+-rw-r--r-- 1 qakush qakush  2971 Jan 29 11:58 pam_env.backup
+
+-rw-r--r-- 1 qakush qakush  1597 Jan 29 11:58 parser.backup
+
+-rw-r--r-- 1 qakush qakush    75 Jan 29 11:58 pie.backup
+
+-rw-r--r-- 1 qakush qakush   554 Jan 29 11:58 pieusb.backup
+
+-rw-r--r-- 1 qakush qakush  4068 Jan 29 11:58 pipewire.backup
+
+-rw-r--r-- 1 qakush qakush  1247 Jan 29 11:58 pixma.backup
+
+-rw-r--r-- 1 qakush qakush  4140 Jan 29 11:58 plustek.backup
+
+-rw-r--r-- 1 qakush qakush   942 Jan 29 11:58 plustek_pp.backup
+
+-rw-r--r-- 1 qakush qakush    87 Jan 29 11:58 plymouthd.backup
+
+-rw-r--r-- 1 qakush qakush  4043 Jan 29 11:58 psprint.backup
+
+-rw-r--r-- 1 qakush qakush   529 Jan 29 11:58 pstore.backup
+
+-rw-r--r-- 1 qakush qakush  1084 Jan 29 11:58 pulseaudio-system.backup
+
+-rw-r--r-- 1 qakush qakush  2674 Jan 29 11:58 pwquality.backup
+
+-rw-r--r-- 1 qakush qakush   391 Jan 29 11:58 qcam.backup
+
+-rw-r--r-- 1 qakush qakush   302 Jan 29 11:58 redfish.backup
+
+-rw-r--r-- 1 qakush qakush  3281 Jan 29 11:58 reportbug.backup
+
+-rw-r--r-- 1 qakush qakush    66 Jan 29 11:58 resolv.backup
+
+-rw-r--r-- 1 qakush qakush   943 Jan 29 11:58 resolved.backup
+
+-rw-r--r-- 1 qakush qakush    29 Jan 29 11:58 ricoh.backup
+
+-rw-r--r-- 1 qakush qakush  1974 Jan 29 11:58 rsyslog.backup
+
+-rw-r--r-- 1 qakush qakush   183 Jan 29 11:58 rts8891.backup
+
+-rw-r--r-- 1 qakush qakush  5428 Jan 29 11:58 rygel.backup
+
+-rw-r--r-- 1 qakush qakush    13 Jan 29 11:58 s9036.backup
+
+-rw-r--r-- 1 qakush qakush  1052 Jan 29 11:58 saned.backup
+
+-rw-r--r-- 1 qakush qakush    48 Jan 29 11:58 sceptre.backup
+
+-rw-r--r-- 1 qakush qakush  2041 Jan 29 11:58 semanage.backup
+
+-rw-r--r-- 1 qakush qakush 10593 Jan 29 11:58 sensors3.backup
+
+-rw-r--r-- 1 qakush qakush   419 Jan 29 11:58 sepermit.backup
+
+-rw-r--r-- 1 qakush qakush  1458 Jan 29 11:58 sharp.backup
+
+-rw-r--r-- 1 qakush qakush   790 Jan 29 11:58 sleep.backup
+
+-rw-r--r-- 1 qakush qakush   115 Jan 29 11:58 sm3840.backup
+
+-rw-r--r-- 1 qakush qakush  2239 Jan 29 11:58 snapscan.backup
+
+-rw-r--r-- 1 qakush qakush   510 Jan 29 11:58 snmp.backup
+
+-rw-r--r-- 1 qakush qakush    10 Jan 29 11:58 sp15c.backup
+
+-rw-r--r-- 1 qakush qakush 13861 Jan 29 11:58 speechd.backup
+
+-rw-r--r-- 1 qakush qakush  2224 Jan 29 11:58 st400.backup
+
+-rw-r--r-- 1 qakush qakush   178 Jan 29 11:58 stv680.backup
+
+-rw-r--r-- 1 qakush qakush  3975 Jan 29 11:58 sudo.backup
+
+-rw-r--r-- 1 qakush qakush  6169 Jan 29 11:58 sudo_logsrvd.backup
+
+-rw-r--r-- 1 qakush qakush  3759 Jan 29 11:58 swift-generic.backup
+
+-rw-r--r-- 1 qakush qakush  2355 Jan 29 11:58 sysctl.backup
+
+-rw-r--r-- 1 qakush qakush  1774 Jan 29 11:58 system.backup
+
+-rw-r--r-- 1 qakush qakush    27 Jan 29 11:58 tamarack.backup
+
+-rw-r--r-- 1 qakush qakush   355 Jan 29 11:58 teco1.backup
+
+-rw-r--r-- 1 qakush qakush   634 Jan 29 11:58 teco2.backup
+
+-rw-r--r-- 1 qakush qakush   217 Jan 29 11:58 teco3.backup
+
+-rw-r--r-- 1 qakush qakush  1807 Jan 29 11:58 test.backup
+
+-rw-r--r-- 1 qakush qakush   274 Jan 29 11:58 thunderbolt.backup
+
+-rw-r--r-- 1 qakush qakush  2179 Jan 29 11:58 time.backup
+
+-rw-r--r-- 1 qakush qakush   677 Jan 29 11:58 timesyncd.backup
+
+-rw-r--r-- 1 qakush qakush  1494 Jan 29 11:58 u12.backup
+
+-rw-r--r-- 1 qakush qakush  1260 Jan 29 11:58 ucf.backup
+
+-rw-r--r-- 1 qakush qakush   305 Jan 29 11:58 udev.backup
+
+-rw-r--r-- 1 qakush qakush   251 Jan 29 11:58 udisks2.backup
+
+-rw-r--r-- 1 qakush qakush   565 Jan 29 11:58 uefi_capsule.backup
+
+-rw-r--r-- 1 qakush qakush   386 Jan 29 11:58 umax1220u.backup
+
+-rw-r--r-- 1 qakush qakush  3082 Jan 29 11:58 umax.backup
+
+-rw-r--r-- 1 qakush qakush  1681 Jan 29 11:58 umax_pp.backup
+
+-rw-r--r-- 1 qakush qakush   378 Jan 29 11:58 update-initramfs.backup
+
+-rw-r--r-- 1 qakush qakush   121 Jan 29 11:58 upower.backup
+
+-rw-r--r-- 1 qakush qakush  2836 Jan 29 11:58 UPower.backup
+
+-rw-r--r-- 1 qakush qakush  1523 Jan 29 11:58 usb_modeswitch.backup
+
+-rw-r--r-- 1 qakush qakush  1197 Jan 29 11:58 user.backup
+
+-rw-r--r-- 1 qakush qakush   414 Jan 29 11:58 user-dirs.backup
+
+-rw-r--r-- 1 qakush qakush    75 Jan 29 11:58 vboxvideo-upstream.backup
+
+-rw-r--r-- 1 qakush qakush   317 Jan 29 11:58 vendor.backup
+
+-rw-r--r-- 1 qakush qakush  1889 Jan 29 11:58 Vendor.backup
+
+-rw-r--r-- 1 qakush qakush   296 Jan 29 11:58 vendor-directory.backup
+
+-rw-r--r-- 1 qakush qakush  1160 Jan 29 11:58 wpa_supplicant.backup
+
+-rw-r--r-- 1 qakush qakush   100 Jan 29 11:58 x86_64-linux-gnu.backup
+
+-rw-r--r-- 1 qakush qakush   642 Jan 29 11:58 xattr.backup
+
+-rw-r--r-- 1 qakush qakush  4069 Jan 29 11:58 xerox_mfp.backup
