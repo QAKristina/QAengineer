@@ -1,0 +1,54 @@
+qakush@qa:/$ sudo groupadd teniisfans && sudo groupadd footballfans && sudo groupadd sportsfans
+
+qakush@qa:/$ su
+
+Пароль:
+
+root@qa:~# usermod -a -G tennisfans,sportsfans petr
+
+root@qa:~# exit
+
+выход
+
+qakush@qa:/$ tail -n 3 /etc/group
+
+tennisfans:x:1002:petr
+
+footballfans:x:1003:
+
+sportsfans:x:1004:petr
+
+qakush@qa:~$ su
+
+Пароль: 
+
+root@qa:~# groupmod -n football footballfans
+
+root@qa:~# exit
+
+выход
+
+qakush@qa:~$ tail -n 3 /etc/group
+
+tennisfans:x:1002:petr
+
+sportsfans:x:1004:petr
+
+football:x:1003:
+
+qakush@qa:~$ su petr
+
+Пароль: 
+
+$ id 
+
+uid=1001(petr) gid=1001(petr) группы=1001(petr),1002(tennisfans),1004(sportsfans)
+
+$ 
+
+qakush@qa:~$ 
+
+
+
+
+

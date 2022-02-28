@@ -1,0 +1,227 @@
+qakush@qa:~$ mkdir permissions; touch ~/permissions/file
+
+qakush@qa:~/permissions$ stat file
+
+  Файл: file
+
+  Размер: 0         	Блоков: 0          Блок В/В: 4096   пустой обычный файл
+
+Устройство: 801h/2049d	Инода: 55307       Ссылки: 1
+
+Доступ: (0644/-rw-r--r--)  Uid: ( 1000/  qakush)   Gid: ( 1000/  qakush)
+
+Доступ:        2022-02-27 23:26:23.824414600 +0200
+
+Модифицирован: 2022-02-27 23:26:23.824414600 +0200
+
+Изменён:       2022-02-27 23:26:23.824414600 +0200
+
+Создан:        2022-02-27 23:26:23.824414600 +0200
+
+qakush@qa:/etc$ su -
+
+Пароль: 
+
+root@qa:~# touch /home/qakush/permissions/file2
+
+root@qa:~# exit
+
+выход
+
+qakush@qa:/etc$ cd ~/permissions
+
+qakush@qa:~/permissions$ stat file2
+
+  Файл: file2
+
+  Размер: 0         	Блоков: 0          Блок В/В: 4096   пустой обычный файл
+
+Устройство: 801h/2049d	Инода: 56421       Ссылки: 1
+
+Доступ: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+
+Доступ:        2022-02-27 23:34:27.036414600 +0200
+
+Модифицирован: 2022-02-27 23:34:27.036414600 +0200
+
+Изменён:       2022-02-27 23:34:27.036414600 +0200
+
+Создан:        2022-02-27 23:34:27.036414600 +0200
+
+akush@qa:~/permissions$ sudo chown qakush file file2
+
+[sudo] пароль для qakush: 
+
+qakush@qa:~/permissions$ stat file file2
+
+  Файл: file
+
+  Размер: 0         	Блоков: 0          Блок В/В: 4096   пустой обычный файл
+
+Устройство: 801h/2049d	Инода: 55307       Ссылки: 1
+
+Доступ: (0644/-rw-r--r--)  Uid: ( 1000/  qakush)   Gid: ( 1000/  qakush)
+
+Доступ:        2022-02-27 23:26:23.824414600 +0200
+
+Модифицирован: 2022-02-27 23:26:23.824414600 +0200
+
+Изменён:       2022-02-27 23:38:26.756414600 +0200
+
+Создан:        2022-02-27 23:26:23.824414600 +0200
+
+  Файл: file2
+
+  Размер: 0         	Блоков: 0          Блок В/В: 4096   пустой обычный файл
+
+Устройство: 801h/2049d	Инода: 56421       Ссылки: 1
+
+Доступ: (0644/-rw-r--r--)  Uid: ( 1000/  qakush)   Gid: (    0/    root)
+
+Доступ:        2022-02-27 23:34:27.036414600 +0200
+
+Модифицирован: 2022-02-27 23:34:27.036414600 +0200
+
+Изменён:       2022-02-27 23:38:26.756414600 +0200
+
+Создан:        2022-02-27 23:34:27.036414600 +0200
+
+qakush@qa:~/permissions$ su -
+
+Пароль: 
+
+root@qa:~# touch /home/qakush/file1
+
+root@qa:~# chmod o+r /home/qakush/file1
+
+root@qa:~# exit
+
+выход
+
+qakush@qa:~/permissions$ cd ..
+
+qakush@qa:~$ ls -l file1
+
+-rw-r--r-- 1 root root 0 фев 27 23:41 file1
+
+qakush@qa:~$ su -
+
+Пароль: 
+
+root@qa:~# cat >> /home/qakush/file1
+
+File1
+
+root@qa:~# exit
+
+выход
+
+qakush@qa:~$ cat file1
+
+File1
+
+qakush@qa:~$ cat >> file1
+
+bash: file1: Отказано в доступе
+
+$ touch file2
+
+$ cat >> file2
+
+File2
+
+$ ls -l file2
+
+-rw-r--r-- 1 petr petr 6 фев 28 00:22 file2
+
+$ su qakush
+
+Пароль: 
+
+qakush@qa:/home/petr$ cat file2
+
+File2
+
+qakush@qa:/home/petr$ cat >> file2
+
+bash: file2: Отказано в доступе
+
+qakush@qa:~$ sudo groupadd userxxx
+
+qakush@qa:~$ su -
+
+Пароль: 
+
+root@qa:~# usermod -a -G userxxx qakush
+
+root@qa:~# usermod -a -G userxxx petr
+
+root@qa:~# mkdir /test
+
+root@qa:~# cat >> /test/file.log
+
+test
+
+root@qa:~# chown qakush:userxxx /test
+
+qakush@qa:~$ cat /test/file.log
+
+test
+
+qakush@qa:~$ su petr
+
+Пароль: 
+
+$ cat /test/file.log
+
+test
+
+qakush@qa:~$ cat >> /test/file.log
+
+bash: file.log: Отказано в доступе
+
+qakush@qa:~$ su petr
+
+Пароль: 
+
+$ cat >> /test/file.log
+
+bash: file.log: Отказано в доступе
+
+qakush@qa:~$ su -
+
+Пароль: 
+
+root@qa:~# chmod a+w /test/file.log
+
+root@qa:~# exit
+
+выход
+
+qakush@qa:~$ cat >> /test/file.log
+
+qakush
+
+qakush@qa:~$ cat /test/file.log
+
+test
+
+qakush
+
+qakush@qa:~$ su petr
+
+Пароль: 
+
+$ cat >> /test/file.log
+
+petr
+
+$ cat /test/file.log
+
+test
+
+qakush
+
+petr
+
+

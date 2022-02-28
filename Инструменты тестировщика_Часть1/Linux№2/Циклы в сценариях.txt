@@ -1,0 +1,36 @@
+qakush@qa: for i in {2..5}; do echo "Number: $i"; done
+
+Number: 2
+
+Number: 3
+
+Number: 4
+
+Number: 5
+
+qakush@qa:~$ 
+
+qakush@qa:~$ i=8; while [ $i -ge 2 ]; do echo Number: $i; ((i--)); done
+
+Number: 8
+
+Number: 7
+
+Number: 6
+
+Number: 5
+
+Number: 4
+
+Number: 3
+
+Number: 2
+
+qakush@qa:~$
+
+qakush@qa:~$ find -maxdepth 1 -type f -name "*.txt" | wc -l
+
+2
+
+qakush@qa:~$
+

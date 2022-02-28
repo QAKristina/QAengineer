@@ -1,0 +1,62 @@
+qakush@qa:/$ sudo useradd petr -mc "Петр Петров"
+
+[sudo] пароль для qakush: 
+
+qakush@qa:/$ 
+
+qakush@qa:/$ sudo tail -n 1 /etc/passwd
+
+petr:x:1001:1001:Петр Петров:/home/petr:/bin/sh
+
+qakush@qa:/$ sudo tail -n 1 /etc/shadow
+
+petr:!:19050:0:99999:7:::
+
+qakush@qa:/$ sudo tail -n 1 /etc/group
+
+petr:x:1001:
+
+qakush@qa:/$ ls /home
+
+petr  qakush
+
+qakush@qa:/$ 
+
+qakush@qa:/$ passwd petr
+
+passwd: вы не можете посмотреть или изменить пароль petr.
+
+qakush@qa:/$ sudo passwd petr
+
+Новый пароль: 
+
+Повторите ввод нового пароля: 
+
+passwd: пароль успешно обновлён
+
+qakush@qa:/$ su
+
+Пароль: 
+
+root@qa:/# su petr
+
+$ 
+
+root@qa:/# exit
+
+qakush@qa:/$ su petr
+
+Пароль: 
+
+$ 
+
+qakush@qa:/$
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+qakush@qa:~$ whoami
+
+qakush
+
+qakush@qa:~$ whoami && id -u
+
+qakush
+
+1000
+
+qakush@qa:~$ 
+

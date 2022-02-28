@@ -1,0 +1,30 @@
+qakush@qa:~$ touch livetesting.txt
+
+qakush@qa:~$ cd /
+
+qakush@qa:/$ ls
+
+bin   dev  home        initrd.img.old  lib32  libx32      media  opt   root  sbin  sys  usr  vmlinuz
+
+boot  etc  initrd.img  lib             lib64  lost+found  mnt    proc  run   srv   tmp  var  vmlinuz.old
+
+qakush@qa:/$ cd home
+
+qakush@qa:/home$ ls
+
+qakush
+
+qakush@qa:/home$ cd qakush
+
+qakush@qa:~$ ls
+
+ livetesting.txt   testdir   Документы   Изображения   Общедоступные   Шаблоны
+
+ newtestdir        Видео     Загрузки    Музыка       'Рабочий стол'
+
+qakush@qa:~$ tail -f livetesting.txt
+
+I like Linux
+
+qakush@qa:~$ 
+
